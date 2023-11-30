@@ -1,0 +1,435 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{214CDD3F-E659-4705-846D-AE69422CEAB3}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>server</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>NotSet</CharacterSet>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>NotSet</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="PropertySheet.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="PropertySheet.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>$(VC_IncludePath);$(WindowsSDK_IncludePath);$(AIAPI_DIR);$(SHARED_DIR);</IncludePath>
+    <SourcePath>$(VC_SourcePath);$(AIAPI_DIR);$(SHARED_DIR);</SourcePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>$(BOOST_SDK_DIR);$(SHARED_DIR);D:\FPT\Projects\dll\server\server\apiai\include;$(IncludePath)</IncludePath>
+    <SourcePath>$(BOOST_SDK_DIR)\libs;$(SHARED_DIR);D:\FPT\Projects\dll\server\server\apiai\src;$(SourcePath)</SourcePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;_SERVER;SERVER_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ModuleDefinitionFile>export.def</ModuleDefinitionFile>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy "$(OutDir)*.dll" "$(COPY_DEBUG_DLL_DIR)" /d /y</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>Full</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>_SERVER;WIN32;NDEBUG;_WINDOWS;_USRDLL;SERVER_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <DisableSpecificWarnings>4995;4290;4091;26495;</DisableSpecificWarnings>
+      <CallingConvention>Cdecl</CallingConvention>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <ModuleDefinitionFile>export.def</ModuleDefinitionFile>
+    </Link>
+    <PostBuildEvent>
+      <Command>xcopy "$(OutDir)*.dll" "$(COPY_RELEASE_DLL_DIR)" /d /y
+xcopy "$(OutDir)*.dll" "$(GAMESERVER1_DIR)" /d /y</Command>
+    </PostBuildEvent>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\shared\achievement.h" />
+    <ClInclude Include="..\..\shared\actionfield.h" />
+    <ClInclude Include="..\..\shared\battlearena.h" />
+    <ClInclude Include="..\..\shared\battleroyale.h" />
+    <ClInclude Include="..\..\shared\bellatra.h" />
+    <ClInclude Include="..\..\shared\CApplication.h" />
+    <ClInclude Include="..\..\shared\caravan.h" />
+    <ClInclude Include="..\..\shared\CConfig.h" />
+    <ClInclude Include="..\..\shared\CConfigFile.h" />
+    <ClInclude Include="..\..\shared\CConfigFileReader.h" />
+    <ClInclude Include="..\..\shared\CConfigFileWriter.h" />
+    <ClInclude Include="..\..\shared\character.h" />
+    <ClInclude Include="..\..\shared\christmas.h" />
+    <ClInclude Include="..\..\shared\CIocpBase.h" />
+    <ClInclude Include="..\..\shared\CIocpClient.h" />
+    <ClInclude Include="..\..\shared\CIocpConnection.h" />
+    <ClInclude Include="..\..\shared\CIocpConnectionManager.h" />
+    <ClInclude Include="..\..\shared\CIocpData.h" />
+    <ClInclude Include="..\..\shared\CIocpHandlerImpl.h" />
+    <ClInclude Include="..\..\shared\CIocpImpl.h" />
+    <ClInclude Include="..\..\shared\CIocpSendQueue.h" />
+    <ClInclude Include="..\..\shared\CIocpServer.h" />
+    <ClInclude Include="..\..\shared\CIocpServerHandler.h" />
+    <ClInclude Include="..\..\shared\CIocpUtils.h" />
+    <ClInclude Include="..\..\shared\CIocpWorkerThread.h" />
+    <ClInclude Include="..\..\shared\CMutex.h" />
+    <ClInclude Include="..\..\shared\Coin.h" />
+    <ClInclude Include="..\..\shared\CoinShop.h" />
+    <ClInclude Include="..\..\shared\CoinShopItem.h" />
+    <ClInclude Include="..\..\shared\CoinShopTab.h" />
+    <ClInclude Include="..\..\shared\common.h" />
+    <ClInclude Include="..\..\shared\CProcess.h" />
+    <ClInclude Include="..\..\shared\CReader.h" />
+    <ClInclude Include="..\..\shared\CReaderFile.h" />
+    <ClInclude Include="..\..\shared\CSystem.h" />
+    <ClInclude Include="..\..\shared\CWindow.h" />
+    <ClInclude Include="..\..\shared\CWorld.h" />
+    <ClInclude Include="..\..\shared\debug.h" />
+    <ClInclude Include="..\..\shared\def.h" />
+    <ClInclude Include="..\..\shared\horde.h" />
+    <ClInclude Include="..\..\shared\item.h" />
+    <ClInclude Include="..\..\shared\LevelTable.h" />
+    <ClInclude Include="..\..\shared\map.h" />
+    <ClInclude Include="..\..\shared\packets.h" />
+    <ClInclude Include="..\..\shared\point.h" />
+    <ClInclude Include="..\..\shared\premiumstruct.h" />
+    <ClInclude Include="..\..\shared\quest.h" />
+    <ClInclude Include="..\..\shared\ranking.h" />
+    <ClInclude Include="..\..\shared\roll.h" />
+    <ClInclude Include="..\..\shared\room.h" />
+    <ClInclude Include="..\..\shared\socket.h" />
+    <ClInclude Include="..\..\shared\sound.h" />
+    <ClInclude Include="..\..\shared\strings.h" />
+    <ClInclude Include="..\..\shared\unit.h" />
+    <ClInclude Include="..\..\shared\user.h" />
+    <ClInclude Include="accountserver.h" />
+    <ClInclude Include="AgeHandler.h" />
+    <ClInclude Include="Archer.h" />
+    <ClInclude Include="Assassin.h" />
+    <ClInclude Include="Atalanta.h" />
+    <ClInclude Include="bellatraserver.h" />
+    <ClInclude Include="BlessCastleHandler.h" />
+    <ClInclude Include="blesscastleserver.h" />
+    <ClInclude Include="BotServerHandler.h" />
+    <ClInclude Include="BotShopServerHandler.h" />
+    <ClInclude Include="CAchievementHandler.h" />
+    <ClInclude Include="CBattleArenaServerHandler.h" />
+    <ClInclude Include="CBattleRoyaleHandler.h" />
+    <ClInclude Include="CBellatraServerHandler.h" />
+    <ClInclude Include="CBotServerAIHandler.h" />
+    <ClInclude Include="CCharacterDataHandler.h" />
+    <ClInclude Include="CChristmasTreeHandler.h" />
+    <ClInclude Include="CClanServerHandler.h" />
+    <ClInclude Include="CActionFieldHandler.h" />
+    <ClInclude Include="CDropItemAreaHandler.h" />
+    <ClInclude Include="CDropServerHandler.h" />
+    <ClInclude Include="CFollowUnitHandler.h" />
+    <ClInclude Include="CGlamorousBrushHandler.h" />
+    <ClInclude Include="characterserver.h" />
+    <ClInclude Include="chatserver.h" />
+    <ClInclude Include="cheatserver.h" />
+    <ClInclude Include="CHonorHandler.h" />
+    <ClInclude Include="ChristmasHandler.h" />
+    <ClInclude Include="CIocpGameHandler.h" />
+    <ClInclude Include="CManufactureHandler.h" />
+    <ClInclude Include="CMountServerHandler.h" />
+    <ClInclude Include="CRankingServerHandler.h" />
+    <ClInclude Include="CServerEventHandler.h" />
+    <ClInclude Include="CMonsterHordeHandler.h" />
+    <ClInclude Include="CoinShopHandler.h" />
+    <ClInclude Include="CPartyHandler.h" />
+    <ClInclude Include="CPersonalShopHandler.h" />
+    <ClInclude Include="CProtectServer.h" />
+    <ClInclude Include="CReconnectServerHandler.h" />
+    <ClInclude Include="CRollDiceHandler.h" />
+    <ClInclude Include="CRoomInstanceHandler.h" />
+    <ClInclude Include="CServer.h" />
+    <ClInclude Include="CServerConfig.h" />
+    <ClInclude Include="CServerHandler.h" />
+    <ClInclude Include="CServerManager.h" />
+    <ClInclude Include="CServerSocketHandler.h" />
+    <ClInclude Include="CServerWindow.h" />
+    <ClInclude Include="CServerWorld.h" />
+    <ClInclude Include="CSkillServerHandler.h" />
+    <ClInclude Include="CTimePointsHandler.h" />
+    <ClInclude Include="CWarehouseHandler.h" />
+    <ClInclude Include="DamageHandler.h" />
+    <ClInclude Include="eventserver.h" />
+    <ClInclude Include="Fighter.h" />
+    <ClInclude Include="FuryArenaHandler.h" />
+    <ClInclude Include="globals.h" />
+    <ClInclude Include="HalloweenHandler.h" />
+    <ClInclude Include="HNSSkill.h" />
+    <ClInclude Include="DLL.h" />
+    <ClInclude Include="itemserver.h" />
+    <ClInclude Include="Knight.h" />
+    <ClInclude Include="logserver.h" />
+    <ClInclude Include="Magician.h" />
+    <ClInclude Include="mapserver.h" />
+    <ClInclude Include="Mechanician.h" />
+    <ClInclude Include="MixHandler.h" />
+    <ClInclude Include="netserver.h" />
+    <ClInclude Include="packetserver.h" />
+    <ClInclude Include="Pikeman.h" />
+    <ClInclude Include="Priestess.h" />
+    <ClInclude Include="pvpserver.h" />
+    <ClInclude Include="QuestArenaHandler.h" />
+    <ClInclude Include="questserver.h" />
+    <ClInclude Include="server.h" />
+    <ClInclude Include="servercommand.h" />
+    <ClInclude Include="servercore.h" />
+    <ClInclude Include="Shaman.h" />
+    <ClInclude Include="socketserver.h" />
+    <ClInclude Include="SocketSystemHandler.h" />
+    <ClInclude Include="SQLConnection.h" />
+    <ClInclude Include="SQLSkill.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="structaccount.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="TradeHandler.h" />
+    <ClInclude Include="unitdataserver.h" />
+    <ClInclude Include="unitinfo.h" />
+    <ClInclude Include="unitserver.h" />
+    <ClInclude Include="userdataserver.h" />
+    <ClInclude Include="userserver.h" />
+    <ClInclude Include="WinDump.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\shared\achievement.cpp" />
+    <ClCompile Include="..\..\shared\actionfield.cpp" />
+    <ClCompile Include="..\..\shared\battlearena.cpp" />
+    <ClCompile Include="..\..\shared\battleroyale.cpp" />
+    <ClCompile Include="..\..\shared\bellatra.cpp" />
+    <ClCompile Include="..\..\shared\CApplication.cpp" />
+    <ClCompile Include="..\..\shared\CConfig.cpp" />
+    <ClCompile Include="..\..\shared\CConfigFile.cpp" />
+    <ClCompile Include="..\..\shared\CConfigFileReader.cpp" />
+    <ClCompile Include="..\..\shared\CConfigFileWriter.cpp" />
+    <ClCompile Include="..\..\shared\CCore.cpp" />
+    <ClCompile Include="..\..\shared\character.cpp" />
+    <ClCompile Include="..\..\shared\christmas.cpp" />
+    <ClCompile Include="..\..\shared\CIocpBase.cpp" />
+    <ClCompile Include="..\..\shared\CIocpClient.cpp" />
+    <ClCompile Include="..\..\shared\CIocpConnection.cpp" />
+    <ClCompile Include="..\..\shared\CIocpConnectionManager.cpp" />
+    <ClCompile Include="..\..\shared\CIocpData.cpp" />
+    <ClCompile Include="..\..\shared\CIocpHandlerImpl.cpp" />
+    <ClCompile Include="..\..\shared\CIocpImpl.cpp" />
+    <ClCompile Include="..\..\shared\CIocpSendQueue.cpp" />
+    <ClCompile Include="..\..\shared\CIocpServer.cpp" />
+    <ClCompile Include="..\..\shared\CIocpServerHandler.cpp" />
+    <ClCompile Include="..\..\shared\CIocpUtils.cpp" />
+    <ClCompile Include="..\..\shared\CIocpWorkerThread.cpp" />
+    <ClCompile Include="..\..\shared\CMutex.cpp" />
+    <ClCompile Include="..\..\shared\Coin.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\CoinShop.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\CoinShopItem.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\CoinShopTab.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Use</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\common.cpp" />
+    <ClCompile Include="..\..\shared\CProcess.cpp" />
+    <ClCompile Include="..\..\shared\CReader.cpp" />
+    <ClCompile Include="..\..\shared\CReaderFile.cpp" />
+    <ClCompile Include="..\..\shared\CSystem.cpp" />
+    <ClCompile Include="..\..\shared\CWindow.cpp" />
+    <ClCompile Include="..\..\shared\CWorld.cpp" />
+    <ClCompile Include="..\..\shared\debug.cpp" />
+    <ClCompile Include="..\..\shared\def.cpp" />
+    <ClCompile Include="..\..\shared\horde.cpp" />
+    <ClCompile Include="..\..\shared\item.cpp" />
+    <ClCompile Include="..\..\shared\LevelTable.cpp" />
+    <ClCompile Include="..\..\shared\map.cpp" />
+    <ClCompile Include="..\..\shared\party.cpp" />
+    <ClCompile Include="..\..\shared\point.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\quest.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\room.cpp" />
+    <ClCompile Include="..\..\shared\skill.cpp" />
+    <ClCompile Include="..\..\shared\socket.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Use</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\sound.cpp" />
+    <ClCompile Include="..\..\shared\strings.cpp" />
+    <ClCompile Include="..\..\shared\unit.cpp" />
+    <ClCompile Include="..\..\shared\user.cpp" />
+    <ClCompile Include="accountserver.cpp" />
+    <ClCompile Include="AgeHandler.cpp" />
+    <ClCompile Include="Archer.cpp" />
+    <ClCompile Include="Assassin.cpp" />
+    <ClCompile Include="Atalanta.cpp" />
+    <ClCompile Include="bellatraserver.cpp" />
+    <ClCompile Include="BlessCastleHandler.cpp" />
+    <ClCompile Include="blesscastleserver.cpp" />
+    <ClCompile Include="BotServerHandler.cpp" />
+    <ClCompile Include="BotShopServerHandler.cpp" />
+    <ClCompile Include="CAchievementHandler.cpp" />
+    <ClCompile Include="CBattleArenaServerHandler.cpp" />
+    <ClCompile Include="CBattleRoyaleHandler.cpp" />
+    <ClCompile Include="CBellatraServerHandler.cpp" />
+    <ClCompile Include="CBotServerAIHandler.cpp" />
+    <ClCompile Include="CCharacterDataHandler.cpp" />
+    <ClCompile Include="CChristmasTreeHandler.cpp" />
+    <ClCompile Include="CClanServerHandler.cpp" />
+    <ClCompile Include="CActionFieldHandler.cpp" />
+    <ClCompile Include="CDropItemAreaHandler.cpp" />
+    <ClCompile Include="CDropServerHandler.cpp" />
+    <ClCompile Include="CFollowUnitHandler.cpp" />
+    <ClCompile Include="CGlamorousBrushHandler.cpp" />
+    <ClCompile Include="characterserver.cpp" />
+    <ClCompile Include="chatserver.cpp" />
+    <ClCompile Include="cheatserver.cpp" />
+    <ClCompile Include="CHonorHandler.cpp" />
+    <ClCompile Include="ChristmasHandler.cpp" />
+    <ClCompile Include="CIocpGameHandler.cpp" />
+    <ClCompile Include="CManufactureHandler.cpp" />
+    <ClCompile Include="CMountServerHandler.cpp" />
+    <ClCompile Include="CRankingServerHandler.cpp" />
+    <ClCompile Include="CServerEventHandler.cpp" />
+    <ClCompile Include="CMonsterHordeHandler.cpp" />
+    <ClCompile Include="CoinShopHandler.cpp" />
+    <ClCompile Include="CPartyHandler.cpp" />
+    <ClCompile Include="CPersonalShopHandler.cpp" />
+    <ClCompile Include="CProtectServer.cpp" />
+    <ClCompile Include="CReconnectServerHandler.cpp" />
+    <ClCompile Include="CRollDiceHandler.cpp" />
+    <ClCompile Include="CRoomInstanceHandler.cpp" />
+    <ClCompile Include="CServer.cpp" />
+    <ClCompile Include="CServerConfig.cpp" />
+    <ClCompile Include="CServerHandler.cpp" />
+    <ClCompile Include="CServerManager.cpp" />
+    <ClCompile Include="CServerSocketHandler.cpp" />
+    <ClCompile Include="CServerWindow.cpp" />
+    <ClCompile Include="CServerWorld.cpp" />
+    <ClCompile Include="CSkillServerHandler.cpp" />
+    <ClCompile Include="CTimePointsHandler.cpp" />
+    <ClCompile Include="CWarehouseHandler.cpp" />
+    <ClCompile Include="DamageHandler.cpp" />
+    <ClCompile Include="DLL.cpp">
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</CompileAsManaged>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+      </PrecompiledHeader>
+      <CompileAsManaged Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</CompileAsManaged>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+      </PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="eventserver.cpp" />
+    <ClCompile Include="Fighter.cpp" />
+    <ClCompile Include="FuryArenaHandler.cpp" />
+    <ClCompile Include="globals.cpp" />
+    <ClCompile Include="HalloweenHandler.cpp" />
+    <ClCompile Include="HNSSkill.cpp" />
+    <ClCompile Include="itemserver.cpp" />
+    <ClCompile Include="Knight.cpp" />
+    <ClCompile Include="logserver.cpp" />
+    <ClCompile Include="Magician.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="mapserver.cpp" />
+    <ClCompile Include="Mechanician.cpp" />
+    <ClCompile Include="MixHandler.cpp" />
+    <ClCompile Include="netserver.cpp" />
+    <ClCompile Include="packetserver.cpp" />
+    <ClCompile Include="Pikeman.cpp" />
+    <ClCompile Include="Priestess.cpp" />
+    <ClCompile Include="pvpserver.cpp" />
+    <ClCompile Include="QuestArenaHandler.cpp" />
+    <ClCompile Include="questserver.cpp" />
+    <ClCompile Include="server.cpp" />
+    <ClCompile Include="servercommand.cpp" />
+    <ClCompile Include="servercore.cpp" />
+    <ClCompile Include="Shaman.cpp" />
+    <ClCompile Include="socketserver.cpp" />
+    <ClCompile Include="SocketSystemHandler.cpp" />
+    <ClCompile Include="SQLConnection.cpp" />
+    <ClCompile Include="SQLSkill.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+    </ClCompile>
+    <ClCompile Include="TradeHandler.cpp" />
+    <ClCompile Include="unitdataserver.cpp" />
+    <ClCompile Include="unitinfo.cpp" />
+    <ClCompile Include="unitserver.cpp" />
+    <ClCompile Include="userdataserver.cpp" />
+    <ClCompile Include="userserver.cpp" />
+    <ClCompile Include="WinDump.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="export.def" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

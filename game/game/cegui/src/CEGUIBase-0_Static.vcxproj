@@ -1,0 +1,661 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{AD7B48AD-2934-34C4-ADDD-0514C15EC440}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>CEGUIBase-0_Static</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\build\lib\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CEGUIBase-0_Static.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">CEGUIBase-0_Static_d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\build\lib\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CEGUIBase-0_Static.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">CEGUIBase-0_Static</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\build\lib\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CEGUIBase-0_Static.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">CEGUIBase-0_Static</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\build\lib\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CEGUIBase-0_Static.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">CEGUIBase-0_Static</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\build\cegui\include;D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include;D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\dependencies\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;CEGUI_STATIC;CEGUI_BUILD_STATIC_FACTORY_MODULE;PCRE_STATIC;_CRT_SECURE_NO_WARNINGS;NOMINMAX;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;CEGUI_STATIC;CEGUI_BUILD_STATIC_FACTORY_MODULE;PCRE_STATIC;_CRT_SECURE_NO_WARNINGS;NOMINMAX;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\build\cegui\include;D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include;D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\dependencies\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\build\cegui\include;D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include;D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\dependencies\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\build\cegui\include;D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include;D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\dependencies\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CEGUI_STATIC;CEGUI_BUILD_STATIC_FACTORY_MODULE;PCRE_STATIC;_CRT_SECURE_NO_WARNINGS;NOMINMAX;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CEGUI_STATIC;CEGUI_BUILD_STATIC_FACTORY_MODULE;PCRE_STATIC;_CRT_SECURE_NO_WARNINGS;NOMINMAX;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\build\cegui\include;D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include;D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\dependencies\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\build\cegui\include;D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include;D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\dependencies\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\build\cegui\include;D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include;D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\dependencies\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CEGUI_STATIC;CEGUI_BUILD_STATIC_FACTORY_MODULE;PCRE_STATIC;_CRT_SECURE_NO_WARNINGS;NOMINMAX;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CEGUI_STATIC;CEGUI_BUILD_STATIC_FACTORY_MODULE;PCRE_STATIC;_CRT_SECURE_NO_WARNINGS;NOMINMAX;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\build\cegui\include;D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include;D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\dependencies\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\build\cegui\include;D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include;D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\dependencies\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\build\cegui\include;D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include;D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\dependencies\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CEGUI_STATIC;CEGUI_BUILD_STATIC_FACTORY_MODULE;PCRE_STATIC;_CRT_SECURE_NO_WARNINGS;NOMINMAX;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CEGUI_STATIC;CEGUI_BUILD_STATIC_FACTORY_MODULE;PCRE_STATIC;_CRT_SECURE_NO_WARNINGS;NOMINMAX;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\build\cegui\include;D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include;D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\dependencies\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\build\cegui\include;D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include;D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\dependencies\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Lib>
+      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+    </Lib>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/RPT/Projects/dll/CEGUI/cegui-0.8.7/cegui-0.8.7/cegui/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/RPT/Projects/dll/CEGUI/cegui-0.8.7/cegui-0.8.7 -BD:/RPT/Projects/dll/CEGUI/cegui-0.8.7/cegui-0.8.7/build --check-stamp-file D:/RPT/Projects/dll/CEGUI/cegui-0.8.7/cegui-0.8.7/build/cegui/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\build\cegui\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/RPT/Projects/dll/CEGUI/cegui-0.8.7/cegui-0.8.7/cegui/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/RPT/Projects/dll/CEGUI/cegui-0.8.7/cegui-0.8.7 -BD:/RPT/Projects/dll/CEGUI/cegui-0.8.7/cegui-0.8.7/build --check-stamp-file D:/RPT/Projects/dll/CEGUI/cegui-0.8.7/cegui-0.8.7/build/cegui/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\build\cegui\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/RPT/Projects/dll/CEGUI/cegui-0.8.7/cegui-0.8.7/cegui/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/RPT/Projects/dll/CEGUI/cegui-0.8.7/cegui-0.8.7 -BD:/RPT/Projects/dll/CEGUI/cegui-0.8.7/cegui-0.8.7/build --check-stamp-file D:/RPT/Projects/dll/CEGUI/cegui-0.8.7/cegui-0.8.7/build/cegui/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\build\cegui\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/RPT/Projects/dll/CEGUI/cegui-0.8.7/cegui-0.8.7/cegui/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/RPT/Projects/dll/CEGUI/cegui-0.8.7/cegui-0.8.7 -BD:/RPT/Projects/dll/CEGUI/cegui-0.8.7/cegui-0.8.7/build --check-stamp-file D:/RPT/Projects/dll/CEGUI/cegui-0.8.7/cegui-0.8.7/build/cegui/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\build\cegui\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\Affector.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\Animation.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\AnimationInstance.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\AnimationManager.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\Animation_xmlHandler.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\Base.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\BasicImage.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\BasicRenderedStringParser.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\BidiVisualMapping.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\BoundSlot.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\CentredRenderedString.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\ChainedXMLHandler.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\Clipboard.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\Colour.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\ColourRect.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\CompositeResourceProvider.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\Config_xmlHandler.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\CoordConverter.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\DataContainer.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\DefaultLogger.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\DefaultRenderedStringParser.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\DefaultResourceProvider.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\DynamicModule.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\Element.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\Event.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\EventArgs.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\EventSet.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\Exceptions.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\FactoryModule.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\FactoryRegisterer.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\Font.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\FontManager.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\Font_xmlHandler.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\FormattedRenderedString.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\FreeTypeFont.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\GUIContext.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\GUILayout_xmlHandler.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\GeometryBuffer.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\GlobalEventSet.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\Image.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\ImageCodec.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\ImageManager.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\JustifiedRenderedString.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\JustifiedRenderedStringWordWrapper.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\KeyFrame.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\LeftAlignedRenderedString.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\LinkedEvent.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\Logger.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\MouseCursor.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\NamedElement.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\NamedXMLResourceManager.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\PCRERegexMatcher.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\PixmapFont.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\Property.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\PropertyHelper.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\PropertySet.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\Quaternion.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\Rect.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\RenderEffectManager.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\RenderQueue.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\RenderTarget.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\RenderedString.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\RenderedStringComponent.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\RenderedStringImageComponent.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\RenderedStringTextComponent.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\RenderedStringWidgetComponent.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\RenderingSurface.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\RenderingWindow.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\RightAlignedRenderedString.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\Scheme.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\SchemeManager.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\Scheme_xmlHandler.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\ScriptModule.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\SimpleTimer.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\String.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\SubscriberSlot.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\System.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\SystemKeys.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\TextUtils.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\Win32StringTranscoder.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\Window.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\WindowFactory.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\WindowFactoryManager.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\WindowManager.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\WindowRenderer.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\WindowRendererManager.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\XMLAttributes.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\XMLHandler.cpp">
+      <ObjectFileName>$(IntDir)/XMLHandler.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\XMLParser.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\XMLSerializer.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\widgets\ButtonBase.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\widgets\ClippedContainer.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\widgets\ComboDropList.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\widgets\Combobox.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\widgets\DefaultWindow.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\widgets\DragContainer.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\widgets\Editbox.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\widgets\FrameWindow.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\widgets\GridLayoutContainer.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\widgets\GroupBox.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\widgets\HorizontalLayoutContainer.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\widgets\ItemEntry.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\widgets\ItemListBase.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\widgets\ItemListbox.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\widgets\LayoutCell.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\widgets\LayoutContainer.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\widgets\ListHeader.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\widgets\ListHeaderSegment.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\widgets\Listbox.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\widgets\ListboxItem.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\widgets\ListboxTextItem.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\widgets\MenuBase.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\widgets\MenuItem.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\widgets\Menubar.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\widgets\MultiColumnList.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\widgets\MultiLineEditbox.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\widgets\PopupMenu.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\widgets\ProgressBar.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\widgets\PushButton.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\widgets\RadioButton.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\widgets\ScrollablePane.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\widgets\Scrollbar.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\widgets\ScrolledContainer.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\widgets\ScrolledItemListBase.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\widgets\SequentialLayoutContainer.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\widgets\Slider.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\widgets\Spinner.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\widgets\TabButton.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\widgets\TabControl.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\widgets\Thumb.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\widgets\Titlebar.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\widgets\ToggleButton.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\widgets\Tooltip.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\widgets\Tree.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\widgets\TreeItem.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\widgets\VerticalLayoutContainer.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\falagard\ComponentBase.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\falagard\Dimensions.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\falagard\EventAction.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\falagard\EventLinkDefinition.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\falagard\FormattingSetting.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\falagard\FrameComponent.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\falagard\ImageryComponent.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\falagard\ImagerySection.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\falagard\LayerSpecification.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\falagard\NamedArea.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\falagard\PropertyDefinitionBase.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\falagard\PropertyInitialiser.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\falagard\SectionSpecification.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\falagard\StateImagery.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\falagard\TextComponent.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\falagard\WidgetComponent.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\falagard\WidgetLookFeel.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\falagard\WidgetLookManager.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\falagard\XMLEnumHelper.cpp" />
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\falagard\XMLHandler.cpp">
+      <ObjectFileName>$(IntDir)/falagard/XMLHandler.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\Affector.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\Animation.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\AnimationInstance.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\AnimationManager.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\Animation_xmlHandler.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\Base.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\BasicImage.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\BasicRenderedStringParser.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\BidiVisualMapping.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\BoundSlot.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\CEGUI.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\CentredRenderedString.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\ChainedXMLHandler.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\Clipboard.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\Colour.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\ColourRect.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\CompositeResourceProvider.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\Config_xmlHandler.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\CoordConverter.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\DataContainer.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\DefaultLogger.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\DefaultRenderedStringParser.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\DefaultResourceProvider.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\DynamicModule.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\Element.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\Event.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\EventArgs.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\EventSet.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\Exceptions.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\FactoryModule.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\FactoryRegisterer.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\Font.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\FontGlyph.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\FontManager.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\Font_xmlHandler.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\FormattedRenderedString.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\ForwardRefs.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\FreeFunctionSlot.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\FreeTypeFont.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\FribidiVisualMapping.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\FunctorCopySlot.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\FunctorPointerSlot.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\FunctorReferenceBinder.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\FunctorReferenceSlot.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\GUIContext.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\GUILayout_xmlHandler.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\GeometryBuffer.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\GlobalEventSet.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\IconvStringTranscoder.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\Image.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\ImageCodec.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\ImageFactory.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\ImageManager.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\InjectedInputReceiver.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\InputEvent.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\Interpolator.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\IteratorBase.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\JustifiedRenderedString.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\KeyFrame.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\LeftAlignedRenderedString.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\LinkedEvent.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\Logger.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\MemberFunctionSlot.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\MemoryAllocatedObject.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\MemoryAllocation.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\MemoryOgreAllocator.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\MemorySTLWrapper.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\MemoryStdAllocator.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\MinibidiVisualMapping.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\MinizipResourceProvider.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\MouseCursor.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\NamedElement.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\NamedXMLResourceManager.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\PCRERegexMatcher.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\PixmapFont.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\Property.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\PropertyHelper.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\PropertySet.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\Quaternion.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\Rect.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\RefCounted.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\RegexMatcher.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\RenderEffect.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\RenderEffectFactory.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\RenderEffectManager.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\RenderQueue.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\RenderTarget.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\RenderedString.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\RenderedStringComponent.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\RenderedStringImageComponent.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\RenderedStringParser.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\RenderedStringTextComponent.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\RenderedStringWidgetComponent.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\RenderedStringWordWrapper.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\Renderer.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\RenderingContext.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\RenderingSurface.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\RenderingWindow.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\ResourceProvider.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\RightAlignedRenderedString.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\Scheme.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\SchemeManager.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\Scheme_xmlHandler.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\ScriptModule.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\SimpleTimer.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\Singleton.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\Size.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\SlotFunctorBase.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\String.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\StringTranscoder.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\SubscriberSlot.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\System.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\SystemKeys.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\TextUtils.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\Texture.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\TextureTarget.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\TplInterpolators.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\TplProperty.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\TplWRFactoryRegisterer.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\TplWindowFactory.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\TplWindowFactoryRegisterer.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\TplWindowProperty.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\TplWindowRendererFactory.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\TplWindowRendererProperty.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\TypedProperty.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\UDim.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\Vector.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\Vertex.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\Win32StringTranscoder.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\Window.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\WindowFactory.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\WindowFactoryManager.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\WindowManager.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\WindowRenderer.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\WindowRendererManager.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\XMLAttributes.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\XMLHandler.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\XMLParser.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\XMLSerializer.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\build\cegui\include\CEGUI\Config.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\build\cegui\include\CEGUI\ModuleConfig.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\build\cegui\include\CEGUI\Version.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\widgets\All.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\widgets\ButtonBase.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\widgets\ClippedContainer.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\widgets\ComboDropList.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\widgets\Combobox.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\widgets\DefaultWindow.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\widgets\DragContainer.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\widgets\Editbox.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\widgets\FrameWindow.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\widgets\GridLayoutContainer.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\widgets\GroupBox.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\widgets\HorizontalLayoutContainer.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\widgets\ItemEntry.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\widgets\ItemListBase.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\widgets\ItemListbox.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\widgets\LayoutCell.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\widgets\LayoutContainer.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\widgets\ListHeader.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\widgets\ListHeaderSegment.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\widgets\Listbox.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\widgets\ListboxItem.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\widgets\ListboxTextItem.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\widgets\MenuBase.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\widgets\MenuItem.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\widgets\Menubar.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\widgets\MultiColumnList.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\widgets\MultiLineEditbox.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\widgets\PopupMenu.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\widgets\ProgressBar.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\widgets\PushButton.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\widgets\RadioButton.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\widgets\ScrollablePane.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\widgets\Scrollbar.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\widgets\ScrolledContainer.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\widgets\ScrolledItemListBase.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\widgets\SequentialLayoutContainer.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\widgets\Slider.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\widgets\Spinner.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\widgets\TabButton.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\widgets\TabControl.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\widgets\Thumb.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\widgets\Titlebar.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\widgets\ToggleButton.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\widgets\Tooltip.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\widgets\Tree.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\widgets\TreeItem.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\widgets\VerticalLayoutContainer.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\falagard\ComponentBase.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\falagard\Dimensions.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\falagard\Enums.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\falagard\EventAction.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\falagard\EventLinkDefinition.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\falagard\FalagardPropertyBase.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\falagard\FormattingSetting.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\falagard\FrameComponent.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\falagard\ImageryComponent.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\falagard\ImagerySection.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\falagard\LayerSpecification.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\falagard\NamedArea.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\falagard\NamedDefinitionCollator.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\falagard\PropertyDefinition.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\falagard\PropertyDefinitionBase.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\falagard\PropertyInitialiser.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\falagard\PropertyLinkDefinition.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\falagard\SectionSpecification.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\falagard\StateImagery.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\falagard\TextComponent.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\falagard\WidgetComponent.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\falagard\WidgetLookFeel.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\falagard\WidgetLookManager.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\falagard\XMLEnumHelper.h" />
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\falagard\XMLHandler.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\build\ZERO_CHECK.vcxproj">
+      <Project>{2F3D009E-54CC-3F70-A923-129408E62023}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

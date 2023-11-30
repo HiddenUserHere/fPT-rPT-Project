@@ -1,0 +1,1115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="DLL">
+      <UniqueIdentifier>{0a175a58-a601-424f-b040-6d035b2da12f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DLL\ZDefault">
+      <UniqueIdentifier>{ad4d4e87-a0fd-4aa6-bade-04656a95ac70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Structs">
+      <UniqueIdentifier>{ac253420-e251-46d9-90e0-c4b28c8f5114}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shared">
+      <UniqueIdentifier>{130101b9-28d1-46ee-bf17-f0846fdc71f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Shared">
+      <UniqueIdentifier>{e386f217-c8ea-44e5-a621-4248fc5ab5ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Server">
+      <UniqueIdentifier>{9ec3a781-1679-465f-9777-ef4a9479c9fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Server\Handler">
+      <UniqueIdentifier>{1fd9df78-bdbb-4072-9a15-0997631c7f27}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\A">
+      <UniqueIdentifier>{a6141133-b4af-49f4-b31d-a46f6482dbd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Server\Handler\FuryArena">
+      <UniqueIdentifier>{1c9623fb-e126-4a9e-b8a9-8f304ffa149d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Server">
+      <UniqueIdentifier>{0340a410-36bd-4165-93b9-c44cd769ca28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Server\Handler">
+      <UniqueIdentifier>{f2b5186a-fd0e-4a36-85a7-30a9089233c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Server\Handler\FuryArena">
+      <UniqueIdentifier>{c7828cb1-e003-4abc-a578-5816f4b8a367}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\A">
+      <UniqueIdentifier>{1f2e5822-6bd6-4bf7-8666-000363b24edc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Server\Handler\BlessCastle">
+      <UniqueIdentifier>{fb901860-5b06-4581-9182-ca6e0fff976f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Server\Handler\BlessCastle">
+      <UniqueIdentifier>{343ffb6f-0b61-47ce-82bc-ed39e9e46283}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Server\Handler\Halloween">
+      <UniqueIdentifier>{93a463ed-4a9f-466b-a006-79f53044ead9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Server\Handler\Halloween">
+      <UniqueIdentifier>{fec5f567-fb8c-4da6-ba91-72b1aef9e585}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Server\Handler\CoinShop">
+      <UniqueIdentifier>{5e5ec469-ad7f-49d6-80b2-b3e1230a027e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Server\Handler\CoinShop">
+      <UniqueIdentifier>{1a3e1cba-be75-4a8a-aff0-679e09fc72a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Server\Handler\Christmas">
+      <UniqueIdentifier>{630b7c2a-64de-4732-8137-aad565a07411}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Server\Handler\Christmas">
+      <UniqueIdentifier>{af6ac5da-9c56-420f-a47d-63d912190c0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Server\Handler\Trade">
+      <UniqueIdentifier>{3d82154a-458a-41a6-b352-8dc9925021e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Server\Handler\SocketSystem">
+      <UniqueIdentifier>{1c0213c9-88d5-4f92-a7fd-4883c6b62105}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Server\Handler\SocketSystem">
+      <UniqueIdentifier>{43d70c8f-eab0-4ebb-88ec-61e540f59017}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shared\Coin">
+      <UniqueIdentifier>{68c5c981-b6fa-41c1-8d4b-af932d9f0d17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Shared\Coin">
+      <UniqueIdentifier>{83b93475-198a-4546-8427-540749266423}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Library">
+      <UniqueIdentifier>{7773b3aa-155e-4510-96cd-67fdc5c5525e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Library\File">
+      <UniqueIdentifier>{82cc860a-1579-4674-8f3b-0d2c462037ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Shared\Definitions">
+      <UniqueIdentifier>{158c6a1b-f8e7-4b51-9742-cf732446c14e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Library\SQL">
+      <UniqueIdentifier>{b425b662-96fa-4495-8a19-8c6466044757}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DLL\Exports">
+      <UniqueIdentifier>{e5102cbf-b8d6-41cf-821b-180c23ec155e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Server\Handler\Skills">
+      <UniqueIdentifier>{83094e44-5a11-4d78-abc4-5b6c4b227ec6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Server\Handler\Skills\UglyCode">
+      <UniqueIdentifier>{5e057850-037f-4c11-977e-ebda841249e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Server\Handler\Skills">
+      <UniqueIdentifier>{195c8fb3-468e-4876-81c8-96b72f30250d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Server\Handler\Skills\UglyCode">
+      <UniqueIdentifier>{ec87f09c-dc0e-4e68-b4c3-09dbeef7b8e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Server\Handler\Trade">
+      <UniqueIdentifier>{98ae3a17-164a-445c-af25-5a1d7900d3f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Header">
+      <UniqueIdentifier>{9e622613-ff90-4c0c-8d04-2200e9770dee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shared\Globals">
+      <UniqueIdentifier>{ed8ef1a5-a1ea-4e67-882d-12918a157249}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Shared\Globals">
+      <UniqueIdentifier>{bb3ffe7d-a4a3-412e-b21b-eddf9fe2f93b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Library\Mutex">
+      <UniqueIdentifier>{7a33f1db-8dff-44cb-8c3a-eb59bfa7c586}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Server\Handler\Damage">
+      <UniqueIdentifier>{1acff0de-2142-44e6-a074-1bd9f7bc63cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Server\Handler\Age">
+      <UniqueIdentifier>{71f3b4d3-ac1d-477e-9771-e43c85c05482}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Server\Handler\Age">
+      <UniqueIdentifier>{f3f942f3-1e02-43f6-bfc3-2745d0471c23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Server\Handler\Mix">
+      <UniqueIdentifier>{6d8e1652-6e93-4325-a920-5afa0002b6e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shared\Definitions">
+      <UniqueIdentifier>{5d5070da-5914-43ea-94f9-a4ef81422aaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Server\Handler\Bot">
+      <UniqueIdentifier>{4192fed4-6637-48ad-9c89-712e6fd5db37}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Server\Handler\Bot">
+      <UniqueIdentifier>{04f55159-9622-4123-a764-fb56b563547e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Server\Handler\Party">
+      <UniqueIdentifier>{f6a49f56-5faf-4474-99ce-ee3f32d76b3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Server\Handler\Party">
+      <UniqueIdentifier>{4c06bb72-2171-4d61-8907-a8df6bb299c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Server\Handler\Quest">
+      <UniqueIdentifier>{4b92236b-8a0b-4652-b87c-9e08a3ce46af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Server\Handler\Quest\Arena">
+      <UniqueIdentifier>{ee9c621f-60f2-46a0-a4b0-7b7d713d3da8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Server\Handler\Quest">
+      <UniqueIdentifier>{2f1686ea-a595-40ce-a237-8a9b4e02467d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Server\Handler\Quest\Arena">
+      <UniqueIdentifier>{ed9818f9-18e9-4e3b-a277-430646da4bdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Server\Handler\Damage">
+      <UniqueIdentifier>{0d3f7510-d21a-49ce-8c9a-adb28caab015}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Server\Library">
+      <UniqueIdentifier>{2379e889-98e9-4c18-81f7-f1cd6bab0f49}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Server\Library\File">
+      <UniqueIdentifier>{63fe517d-4897-4940-a99a-224a52800700}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Server\Library\SQL">
+      <UniqueIdentifier>{7a233f40-c75e-42b3-a241-a21b2bdd74aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Server\Library\Mutex">
+      <UniqueIdentifier>{e96e87a2-7a68-4f4a-8d0f-6709f76fc612}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Server\Handler\DiceRoll">
+      <UniqueIdentifier>{483d0fec-6c3a-4eec-95f3-edd8db7fee0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Server\Handler\DiceRoll">
+      <UniqueIdentifier>{0315a179-7b41-447f-9313-7beecec39ed0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Server\Handler\Warehouse">
+      <UniqueIdentifier>{d5baa226-af7b-400b-bf95-1583a89486c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Server\Handler\Warehouse">
+      <UniqueIdentifier>{cca468c9-ed64-4142-a572-dc362071b6ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Server\Handler\Manufacture">
+      <UniqueIdentifier>{547f0365-d658-41c5-bf40-8bb4b5c49776}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Server\Handler\Manufacture">
+      <UniqueIdentifier>{2c15f2ac-81df-4025-bf1f-b4d75fa38a3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Server\Handler\Achievement">
+      <UniqueIdentifier>{d91bf9f3-1ea9-4e09-9e2b-99c87f5bb706}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Server\Handler\Achievement">
+      <UniqueIdentifier>{d5b7a3f2-676e-43d4-9082-0377137da478}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Server\Handler\Mix">
+      <UniqueIdentifier>{d01ef25a-780d-4eca-9241-257fbe4327b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Server\Handler\Reconnect">
+      <UniqueIdentifier>{140e4bf7-c4b4-42bb-8b28-0de930faea12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Server\Handler\Reconnect">
+      <UniqueIdentifier>{43e342d3-6b4b-4751-972a-2bb78056a2c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shared\Iocp">
+      <UniqueIdentifier>{79286bbc-a14f-4e35-ba1d-d7ae98d0f033}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Shared\Iocp">
+      <UniqueIdentifier>{be8e250c-c569-4760-b13c-8d7faf89b8df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Shared\LevelTable">
+      <UniqueIdentifier>{ac9c48ba-6f99-4afa-a957-45cafff980b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shared\LevelTable">
+      <UniqueIdentifier>{3ec68789-693a-445d-94ad-263b98439e72}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="structaccount.h">
+      <Filter>Header Files\Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\premiumstruct.h">
+      <Filter>Header Files\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="FuryArenaHandler.h">
+      <Filter>Header Files\Server\Handler\FuryArena</Filter>
+    </ClInclude>
+    <ClInclude Include="accountserver.h">
+      <Filter>Header Files\A</Filter>
+    </ClInclude>
+    <ClInclude Include="bellatraserver.h">
+      <Filter>Header Files\A</Filter>
+    </ClInclude>
+    <ClInclude Include="characterserver.h">
+      <Filter>Header Files\A</Filter>
+    </ClInclude>
+    <ClInclude Include="chatserver.h">
+      <Filter>Header Files\A</Filter>
+    </ClInclude>
+    <ClInclude Include="cheatserver.h">
+      <Filter>Header Files\A</Filter>
+    </ClInclude>
+    <ClInclude Include="eventserver.h">
+      <Filter>Header Files\A</Filter>
+    </ClInclude>
+    <ClInclude Include="itemserver.h">
+      <Filter>Header Files\A</Filter>
+    </ClInclude>
+    <ClInclude Include="logserver.h">
+      <Filter>Header Files\A</Filter>
+    </ClInclude>
+    <ClInclude Include="mapserver.h">
+      <Filter>Header Files\A</Filter>
+    </ClInclude>
+    <ClInclude Include="netserver.h">
+      <Filter>Header Files\A</Filter>
+    </ClInclude>
+    <ClInclude Include="packetserver.h">
+      <Filter>Header Files\A</Filter>
+    </ClInclude>
+    <ClInclude Include="questserver.h">
+      <Filter>Header Files\A</Filter>
+    </ClInclude>
+    <ClInclude Include="servercommand.h">
+      <Filter>Header Files\A</Filter>
+    </ClInclude>
+    <ClInclude Include="unitdataserver.h">
+      <Filter>Header Files\A</Filter>
+    </ClInclude>
+    <ClInclude Include="unitinfo.h">
+      <Filter>Header Files\A</Filter>
+    </ClInclude>
+    <ClInclude Include="unitserver.h">
+      <Filter>Header Files\A</Filter>
+    </ClInclude>
+    <ClInclude Include="userdataserver.h">
+      <Filter>Header Files\A</Filter>
+    </ClInclude>
+    <ClInclude Include="userserver.h">
+      <Filter>Header Files\A</Filter>
+    </ClInclude>
+    <ClInclude Include="socketserver.h">
+      <Filter>Header Files\A</Filter>
+    </ClInclude>
+    <ClInclude Include="pvpserver.h">
+      <Filter>Header Files\A</Filter>
+    </ClInclude>
+    <ClInclude Include="BlessCastleHandler.h">
+      <Filter>Header Files\Server\Handler\BlessCastle</Filter>
+    </ClInclude>
+    <ClInclude Include="blesscastleserver.h">
+      <Filter>Header Files\A</Filter>
+    </ClInclude>
+    <ClInclude Include="HalloweenHandler.h">
+      <Filter>Header Files\Server\Handler\Halloween</Filter>
+    </ClInclude>
+    <ClInclude Include="CoinShopHandler.h">
+      <Filter>Header Files\Server\Handler\CoinShop</Filter>
+    </ClInclude>
+    <ClInclude Include="ChristmasHandler.h">
+      <Filter>Header Files\Server\Handler\Christmas</Filter>
+    </ClInclude>
+    <ClInclude Include="CServerWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SocketSystemHandler.h">
+      <Filter>Header Files\Server\Handler\SocketSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\CoinShopTab.h">
+      <Filter>Header Files\Shared\Coin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\Coin.h">
+      <Filter>Header Files\Shared\Coin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\CoinShop.h">
+      <Filter>Header Files\Shared\Coin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\CoinShopItem.h">
+      <Filter>Header Files\Shared\Coin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\def.h">
+      <Filter>Header Files\Shared\Globals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\common.h">
+      <Filter>Header Files\Shared\Globals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\strings.h">
+      <Filter>Header Files\Shared\Globals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\point.h">
+      <Filter>Header Files\Shared\Globals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\socket.h">
+      <Filter>Header Files\Shared\Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\packets.h">
+      <Filter>Header Files\Shared\Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="SQLConnection.h">
+      <Filter>Header Files\Server\Library\SQL</Filter>
+    </ClInclude>
+    <ClInclude Include="DLL.h">
+      <Filter>DLL\Exports</Filter>
+    </ClInclude>
+    <ClInclude Include="Archer.h">
+      <Filter>Header Files\Server\Handler\Skills\UglyCode</Filter>
+    </ClInclude>
+    <ClInclude Include="Assassin.h">
+      <Filter>Header Files\Server\Handler\Skills\UglyCode</Filter>
+    </ClInclude>
+    <ClInclude Include="Atalanta.h">
+      <Filter>Header Files\Server\Handler\Skills\UglyCode</Filter>
+    </ClInclude>
+    <ClInclude Include="Fighter.h">
+      <Filter>Header Files\Server\Handler\Skills\UglyCode</Filter>
+    </ClInclude>
+    <ClInclude Include="HNSSkill.h">
+      <Filter>Header Files\Server\Handler\Skills\UglyCode</Filter>
+    </ClInclude>
+    <ClInclude Include="Knight.h">
+      <Filter>Header Files\Server\Handler\Skills\UglyCode</Filter>
+    </ClInclude>
+    <ClInclude Include="Magician.h">
+      <Filter>Header Files\Server\Handler\Skills\UglyCode</Filter>
+    </ClInclude>
+    <ClInclude Include="Mechanician.h">
+      <Filter>Header Files\Server\Handler\Skills\UglyCode</Filter>
+    </ClInclude>
+    <ClInclude Include="Pikeman.h">
+      <Filter>Header Files\Server\Handler\Skills\UglyCode</Filter>
+    </ClInclude>
+    <ClInclude Include="Priestess.h">
+      <Filter>Header Files\Server\Handler\Skills\UglyCode</Filter>
+    </ClInclude>
+    <ClInclude Include="Shaman.h">
+      <Filter>Header Files\Server\Handler\Skills\UglyCode</Filter>
+    </ClInclude>
+    <ClInclude Include="SQLSkill.h">
+      <Filter>Header Files\Server\Library\SQL</Filter>
+    </ClInclude>
+    <ClInclude Include="TradeHandler.h">
+      <Filter>Header Files\Server\Handler\Trade</Filter>
+    </ClInclude>
+    <ClInclude Include="globals.h">
+      <Filter>Header Files\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\CReader.h">
+      <Filter>Header Files\Server\Library\File</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\CReaderFile.h">
+      <Filter>Header Files\Server\Library\File</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\debug.h">
+      <Filter>Header Files\Shared\Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\CMutex.h">
+      <Filter>Header Files\Server\Library\Mutex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\character.h">
+      <Filter>Header Files\Shared\Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\item.h">
+      <Filter>Header Files\Shared\Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\quest.h">
+      <Filter>Header Files\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\unit.h">
+      <Filter>Header Files\Shared\Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\user.h">
+      <Filter>Header Files\Shared\Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\map.h">
+      <Filter>Header Files\Shared\Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\sound.h">
+      <Filter>Header Files\Shared\Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="AgeHandler.h">
+      <Filter>Header Files\Server\Handler\Age</Filter>
+    </ClInclude>
+    <ClInclude Include="WinDump.h">
+      <Filter>DLL\ZDefault</Filter>
+    </ClInclude>
+    <ClInclude Include="BotServerHandler.h">
+      <Filter>Header Files\Server\Handler\Bot</Filter>
+    </ClInclude>
+    <ClInclude Include="BotShopServerHandler.h">
+      <Filter>Header Files\Server\Handler\Bot</Filter>
+    </ClInclude>
+    <ClInclude Include="MixHandler.h">
+      <Filter>Header Files\Server\Handler\Mix</Filter>
+    </ClInclude>
+    <ClInclude Include="CPartyHandler.h">
+      <Filter>Header Files\Server\Handler\Party</Filter>
+    </ClInclude>
+    <ClInclude Include="QuestArenaHandler.h">
+      <Filter>Header Files\Server\Handler\Quest\Arena</Filter>
+    </ClInclude>
+    <ClInclude Include="DamageHandler.h">
+      <Filter>Header Files\Server\Handler\Damage</Filter>
+    </ClInclude>
+    <ClInclude Include="CServer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CServerConfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CServerHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CServerManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CServerWorld.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="server.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="servercore.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\CConfigFileWriter.h">
+      <Filter>Header Files\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\CConfigFileReader.h">
+      <Filter>Header Files\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\CConfigFile.h">
+      <Filter>Header Files\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\CConfig.h">
+      <Filter>Header Files\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\CWindow.h">
+      <Filter>Header Files\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\CSystem.h">
+      <Filter>Header Files\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\CWorld.h">
+      <Filter>Header Files\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\CApplication.h">
+      <Filter>Header Files\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\CProcess.h">
+      <Filter>Header Files\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\roll.h">
+      <Filter>Header Files\Shared\Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="CRollDiceHandler.h">
+      <Filter>Header Files\Server\Handler\DiceRoll</Filter>
+    </ClInclude>
+    <ClInclude Include="CWarehouseHandler.h">
+      <Filter>Header Files\Server\Handler\Warehouse</Filter>
+    </ClInclude>
+    <ClInclude Include="CManufactureHandler.h">
+      <Filter>Header Files\Server\Handler\Manufacture</Filter>
+    </ClInclude>
+    <ClInclude Include="CBotServerAIHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CAchievementHandler.h">
+      <Filter>Header Files\Server\Handler\Achievement</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\achievement.h">
+      <Filter>Header Files\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="CReconnectServerHandler.h">
+      <Filter>Header Files\Server\Handler\Reconnect</Filter>
+    </ClInclude>
+    <ClInclude Include="CClanServerHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CProtectServer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CRoomInstanceHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\room.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CActionFieldHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\actionfield.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CCharacterDataHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CDropServerHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CFollowUnitHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CPersonalShopHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\caravan.h">
+      <Filter>Header Files\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="CBellatraServerHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CChristmasTreeHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\christmas.h">
+      <Filter>Header Files\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="CBattleArenaServerHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\battlearena.h">
+      <Filter>Header Files\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="CMonsterHordeHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\horde.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CBattleRoyaleHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CServerEventHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\battleroyale.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\bellatra.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CServerSocketHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CSkillServerHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CGlamorousBrushHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CDropItemAreaHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\CIocpBase.h">
+      <Filter>Header Files\Shared\Iocp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\CIocpClient.h">
+      <Filter>Header Files\Shared\Iocp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\CIocpConnection.h">
+      <Filter>Header Files\Shared\Iocp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\CIocpConnectionManager.h">
+      <Filter>Header Files\Shared\Iocp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\CIocpData.h">
+      <Filter>Header Files\Shared\Iocp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\CIocpHandlerImpl.h">
+      <Filter>Header Files\Shared\Iocp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\CIocpImpl.h">
+      <Filter>Header Files\Shared\Iocp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\CIocpSendQueue.h">
+      <Filter>Header Files\Shared\Iocp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\CIocpServer.h">
+      <Filter>Header Files\Shared\Iocp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\CIocpServerHandler.h">
+      <Filter>Header Files\Shared\Iocp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\CIocpUtils.h">
+      <Filter>Header Files\Shared\Iocp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\CIocpWorkerThread.h">
+      <Filter>Header Files\Shared\Iocp</Filter>
+    </ClInclude>
+    <ClInclude Include="CIocpGameHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CHonorHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CTimePointsHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CRankingServerHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\ranking.h">
+      <Filter>Header Files\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="CMountServerHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\LevelTable.h">
+      <Filter>Header Files\Shared\LevelTable</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="accountserver.cpp">
+      <Filter>Source Files\A</Filter>
+    </ClCompile>
+    <ClCompile Include="bellatraserver.cpp">
+      <Filter>Source Files\A</Filter>
+    </ClCompile>
+    <ClCompile Include="characterserver.cpp">
+      <Filter>Source Files\A</Filter>
+    </ClCompile>
+    <ClCompile Include="chatserver.cpp">
+      <Filter>Source Files\A</Filter>
+    </ClCompile>
+    <ClCompile Include="cheatserver.cpp">
+      <Filter>Source Files\A</Filter>
+    </ClCompile>
+    <ClCompile Include="eventserver.cpp">
+      <Filter>Source Files\A</Filter>
+    </ClCompile>
+    <ClCompile Include="itemserver.cpp">
+      <Filter>Source Files\A</Filter>
+    </ClCompile>
+    <ClCompile Include="logserver.cpp">
+      <Filter>Source Files\A</Filter>
+    </ClCompile>
+    <ClCompile Include="mapserver.cpp">
+      <Filter>Source Files\A</Filter>
+    </ClCompile>
+    <ClCompile Include="netserver.cpp">
+      <Filter>Source Files\A</Filter>
+    </ClCompile>
+    <ClCompile Include="packetserver.cpp">
+      <Filter>Source Files\A</Filter>
+    </ClCompile>
+    <ClCompile Include="questserver.cpp">
+      <Filter>Source Files\A</Filter>
+    </ClCompile>
+    <ClCompile Include="servercommand.cpp">
+      <Filter>Source Files\A</Filter>
+    </ClCompile>
+    <ClCompile Include="unitdataserver.cpp">
+      <Filter>Source Files\A</Filter>
+    </ClCompile>
+    <ClCompile Include="unitinfo.cpp">
+      <Filter>Source Files\A</Filter>
+    </ClCompile>
+    <ClCompile Include="unitserver.cpp">
+      <Filter>Source Files\A</Filter>
+    </ClCompile>
+    <ClCompile Include="userdataserver.cpp">
+      <Filter>Source Files\A</Filter>
+    </ClCompile>
+    <ClCompile Include="userserver.cpp">
+      <Filter>Source Files\A</Filter>
+    </ClCompile>
+    <ClCompile Include="FuryArenaHandler.cpp">
+      <Filter>Source Files\Server\Handler\FuryArena</Filter>
+    </ClCompile>
+    <ClCompile Include="socketserver.cpp">
+      <Filter>Source Files\A</Filter>
+    </ClCompile>
+    <ClCompile Include="pvpserver.cpp">
+      <Filter>Source Files\A</Filter>
+    </ClCompile>
+    <ClCompile Include="BlessCastleHandler.cpp">
+      <Filter>Source Files\Server\Handler\BlessCastle</Filter>
+    </ClCompile>
+    <ClCompile Include="blesscastleserver.cpp">
+      <Filter>Source Files\A</Filter>
+    </ClCompile>
+    <ClCompile Include="HalloweenHandler.cpp">
+      <Filter>Source Files\Server\Handler\Halloween</Filter>
+    </ClCompile>
+    <ClCompile Include="CoinShopHandler.cpp">
+      <Filter>Source Files\Server\Handler\CoinShop</Filter>
+    </ClCompile>
+    <ClCompile Include="ChristmasHandler.cpp">
+      <Filter>Source Files\Server\Handler\Christmas</Filter>
+    </ClCompile>
+    <ClCompile Include="CServerWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SocketSystemHandler.cpp">
+      <Filter>Source Files\Server\Handler\SocketSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\Coin.cpp">
+      <Filter>Source Files\Shared\Coin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\CoinShop.cpp">
+      <Filter>Source Files\Shared\Coin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\CoinShopItem.cpp">
+      <Filter>Source Files\Shared\Coin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\CoinShopTab.cpp">
+      <Filter>Source Files\Shared\Coin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\def.cpp">
+      <Filter>Source Files\Shared\Globals</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\common.cpp">
+      <Filter>Source Files\Shared\Globals</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\strings.cpp">
+      <Filter>Source Files\Shared\Globals</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\point.cpp">
+      <Filter>Source Files\Shared\Globals</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\socket.cpp">
+      <Filter>Source Files\Shared\Definitions</Filter>
+    </ClCompile>
+    <ClCompile Include="SQLConnection.cpp">
+      <Filter>Source Files\Library\SQL</Filter>
+    </ClCompile>
+    <ClCompile Include="DLL.cpp">
+      <Filter>DLL\Exports</Filter>
+    </ClCompile>
+    <ClCompile Include="Archer.cpp">
+      <Filter>Source Files\Server\Handler\Skills\UglyCode</Filter>
+    </ClCompile>
+    <ClCompile Include="Assassin.cpp">
+      <Filter>Source Files\Server\Handler\Skills\UglyCode</Filter>
+    </ClCompile>
+    <ClCompile Include="Atalanta.cpp">
+      <Filter>Source Files\Server\Handler\Skills\UglyCode</Filter>
+    </ClCompile>
+    <ClCompile Include="Fighter.cpp">
+      <Filter>Source Files\Server\Handler\Skills\UglyCode</Filter>
+    </ClCompile>
+    <ClCompile Include="HNSSkill.cpp">
+      <Filter>Source Files\Server\Handler\Skills\UglyCode</Filter>
+    </ClCompile>
+    <ClCompile Include="Knight.cpp">
+      <Filter>Source Files\Server\Handler\Skills\UglyCode</Filter>
+    </ClCompile>
+    <ClCompile Include="Magician.cpp">
+      <Filter>Source Files\Server\Handler\Skills\UglyCode</Filter>
+    </ClCompile>
+    <ClCompile Include="Mechanician.cpp">
+      <Filter>Source Files\Server\Handler\Skills\UglyCode</Filter>
+    </ClCompile>
+    <ClCompile Include="Pikeman.cpp">
+      <Filter>Source Files\Server\Handler\Skills\UglyCode</Filter>
+    </ClCompile>
+    <ClCompile Include="Priestess.cpp">
+      <Filter>Source Files\Server\Handler\Skills\UglyCode</Filter>
+    </ClCompile>
+    <ClCompile Include="Shaman.cpp">
+      <Filter>Source Files\Server\Handler\Skills\UglyCode</Filter>
+    </ClCompile>
+    <ClCompile Include="SQLSkill.cpp">
+      <Filter>Source Files\Library\SQL</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="TradeHandler.cpp">
+      <Filter>Source Files\Server\Handler\Trade</Filter>
+    </ClCompile>
+    <ClCompile Include="globals.cpp">
+      <Filter>Header Files\Header</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Header Files\Header</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\CReader.cpp">
+      <Filter>Source Files\Library\File</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\CReaderFile.cpp">
+      <Filter>Source Files\Library\File</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\debug.cpp">
+      <Filter>Source Files\Shared\Definitions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\CMutex.cpp">
+      <Filter>Source Files\Library\Mutex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\character.cpp">
+      <Filter>Source Files\Shared\Definitions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\unit.cpp">
+      <Filter>Source Files\Shared\Definitions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\user.cpp">
+      <Filter>Source Files\Shared\Definitions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\item.cpp">
+      <Filter>Source Files\Shared\Definitions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\quest.cpp">
+      <Filter>Source Files\Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\map.cpp">
+      <Filter>Source Files\Shared\Definitions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\sound.cpp">
+      <Filter>Source Files\Shared\Definitions</Filter>
+    </ClCompile>
+    <ClCompile Include="AgeHandler.cpp">
+      <Filter>Source Files\Server\Handler\Age</Filter>
+    </ClCompile>
+    <ClCompile Include="WinDump.cpp">
+      <Filter>DLL\ZDefault</Filter>
+    </ClCompile>
+    <ClCompile Include="DamageHandler.cpp">
+      <Filter>Source Files\Server\Handler\Damage</Filter>
+    </ClCompile>
+    <ClCompile Include="BotServerHandler.cpp">
+      <Filter>Source Files\Server\Handler\Bot</Filter>
+    </ClCompile>
+    <ClCompile Include="BotShopServerHandler.cpp">
+      <Filter>Source Files\Server\Handler\Bot</Filter>
+    </ClCompile>
+    <ClCompile Include="MixHandler.cpp">
+      <Filter>Source Files\Server\Handler\Mix</Filter>
+    </ClCompile>
+    <ClCompile Include="CPartyHandler.cpp">
+      <Filter>Source Files\Server\Handler\Party</Filter>
+    </ClCompile>
+    <ClCompile Include="QuestArenaHandler.cpp">
+      <Filter>Source Files\Server\Handler\Quest\Arena</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\party.cpp">
+      <Filter>Source Files\Shared\Definitions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\CCore.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CServer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CServerConfig.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CServerHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CServerManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CServerWorld.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="server.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="servercore.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\CConfig.cpp">
+      <Filter>Source Files\Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\CConfigFile.cpp">
+      <Filter>Source Files\Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\CConfigFileReader.cpp">
+      <Filter>Source Files\Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\CConfigFileWriter.cpp">
+      <Filter>Source Files\Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\CWindow.cpp">
+      <Filter>Source Files\Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\CSystem.cpp">
+      <Filter>Source Files\Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\CWorld.cpp">
+      <Filter>Source Files\Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\CApplication.cpp">
+      <Filter>Source Files\Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\CProcess.cpp">
+      <Filter>Source Files\Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="CRollDiceHandler.cpp">
+      <Filter>Source Files\Server\Handler\DiceRoll</Filter>
+    </ClCompile>
+    <ClCompile Include="CWarehouseHandler.cpp">
+      <Filter>Source Files\Server\Handler\Warehouse</Filter>
+    </ClCompile>
+    <ClCompile Include="CManufactureHandler.cpp">
+      <Filter>Source Files\Server\Handler\Manufacture</Filter>
+    </ClCompile>
+    <ClCompile Include="CBotServerAIHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CAchievementHandler.cpp">
+      <Filter>Source Files\Server\Handler\Achievement</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\achievement.cpp">
+      <Filter>Source Files\Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="CReconnectServerHandler.cpp">
+      <Filter>Source Files\Server\Handler\Reconnect</Filter>
+    </ClCompile>
+    <ClCompile Include="CClanServerHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CProtectServer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CRoomInstanceHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\room.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CActionFieldHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CCharacterDataHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CDropServerHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CFollowUnitHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CPersonalShopHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CBellatraServerHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CChristmasTreeHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\christmas.cpp">
+      <Filter>Source Files\Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="CBattleArenaServerHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\battlearena.cpp">
+      <Filter>Source Files\Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="CMonsterHordeHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\horde.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CBattleRoyaleHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CServerEventHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\actionfield.cpp">
+      <Filter>Source Files\Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\battleroyale.cpp">
+      <Filter>Source Files\Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\bellatra.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CServerSocketHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CSkillServerHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\skill.cpp">
+      <Filter>Source Files\Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="CGlamorousBrushHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CDropItemAreaHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\CIocpBase.cpp">
+      <Filter>Source Files\Shared\Iocp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\CIocpClient.cpp">
+      <Filter>Source Files\Shared\Iocp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\CIocpConnection.cpp">
+      <Filter>Source Files\Shared\Iocp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\CIocpConnectionManager.cpp">
+      <Filter>Source Files\Shared\Iocp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\CIocpData.cpp">
+      <Filter>Source Files\Shared\Iocp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\CIocpHandlerImpl.cpp">
+      <Filter>Source Files\Shared\Iocp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\CIocpImpl.cpp">
+      <Filter>Source Files\Shared\Iocp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\CIocpSendQueue.cpp">
+      <Filter>Source Files\Shared\Iocp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\CIocpServer.cpp">
+      <Filter>Source Files\Shared\Iocp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\CIocpServerHandler.cpp">
+      <Filter>Source Files\Shared\Iocp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\CIocpUtils.cpp">
+      <Filter>Source Files\Shared\Iocp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\CIocpWorkerThread.cpp">
+      <Filter>Source Files\Shared\Iocp</Filter>
+    </ClCompile>
+    <ClCompile Include="CIocpGameHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CHonorHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CTimePointsHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CRankingServerHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CMountServerHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\LevelTable.cpp">
+      <Filter>Source Files\Shared\LevelTable</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="export.def">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+</Project>

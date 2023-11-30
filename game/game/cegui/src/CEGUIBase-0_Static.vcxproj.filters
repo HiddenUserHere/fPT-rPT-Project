@@ -1,0 +1,1140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\Affector.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\Animation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\AnimationInstance.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\AnimationManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\Animation_xmlHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\Base.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\BasicImage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\BasicRenderedStringParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\BidiVisualMapping.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\BoundSlot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\CentredRenderedString.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\ChainedXMLHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\Clipboard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\Colour.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\ColourRect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\CompositeResourceProvider.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\Config_xmlHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\CoordConverter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\DataContainer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\DefaultLogger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\DefaultRenderedStringParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\DefaultResourceProvider.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\DynamicModule.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\Element.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\Event.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\EventArgs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\EventSet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\Exceptions.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\FactoryModule.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\FactoryRegisterer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\Font.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\FontManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\Font_xmlHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\FormattedRenderedString.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\FreeTypeFont.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\GUIContext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\GUILayout_xmlHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\GeometryBuffer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\GlobalEventSet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\Image.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\ImageCodec.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\ImageManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\JustifiedRenderedString.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\JustifiedRenderedStringWordWrapper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\KeyFrame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\LeftAlignedRenderedString.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\LinkedEvent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\Logger.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\MouseCursor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\NamedElement.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\NamedXMLResourceManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\PCRERegexMatcher.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\PixmapFont.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\Property.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\PropertyHelper.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\PropertySet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\Quaternion.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\Rect.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\RenderEffectManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\RenderQueue.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\RenderTarget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\RenderedString.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\RenderedStringComponent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\RenderedStringImageComponent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\RenderedStringTextComponent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\RenderedStringWidgetComponent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\RenderingSurface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\RenderingWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\RightAlignedRenderedString.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\Scheme.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\SchemeManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\Scheme_xmlHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\ScriptModule.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\SimpleTimer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\String.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\SubscriberSlot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\System.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\SystemKeys.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\TextUtils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\Win32StringTranscoder.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\Window.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\WindowFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\WindowFactoryManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\WindowManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\WindowRenderer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\WindowRendererManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\XMLAttributes.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\XMLHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\XMLParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\XMLSerializer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\widgets\ButtonBase.cpp">
+      <Filter>Source Files\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\widgets\ClippedContainer.cpp">
+      <Filter>Source Files\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\widgets\ComboDropList.cpp">
+      <Filter>Source Files\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\widgets\Combobox.cpp">
+      <Filter>Source Files\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\widgets\DefaultWindow.cpp">
+      <Filter>Source Files\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\widgets\DragContainer.cpp">
+      <Filter>Source Files\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\widgets\Editbox.cpp">
+      <Filter>Source Files\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\widgets\FrameWindow.cpp">
+      <Filter>Source Files\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\widgets\GridLayoutContainer.cpp">
+      <Filter>Source Files\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\widgets\GroupBox.cpp">
+      <Filter>Source Files\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\widgets\HorizontalLayoutContainer.cpp">
+      <Filter>Source Files\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\widgets\ItemEntry.cpp">
+      <Filter>Source Files\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\widgets\ItemListBase.cpp">
+      <Filter>Source Files\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\widgets\ItemListbox.cpp">
+      <Filter>Source Files\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\widgets\LayoutCell.cpp">
+      <Filter>Source Files\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\widgets\LayoutContainer.cpp">
+      <Filter>Source Files\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\widgets\ListHeader.cpp">
+      <Filter>Source Files\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\widgets\ListHeaderSegment.cpp">
+      <Filter>Source Files\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\widgets\Listbox.cpp">
+      <Filter>Source Files\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\widgets\ListboxItem.cpp">
+      <Filter>Source Files\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\widgets\ListboxTextItem.cpp">
+      <Filter>Source Files\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\widgets\MenuBase.cpp">
+      <Filter>Source Files\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\widgets\MenuItem.cpp">
+      <Filter>Source Files\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\widgets\Menubar.cpp">
+      <Filter>Source Files\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\widgets\MultiColumnList.cpp">
+      <Filter>Source Files\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\widgets\MultiLineEditbox.cpp">
+      <Filter>Source Files\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\widgets\PopupMenu.cpp">
+      <Filter>Source Files\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\widgets\ProgressBar.cpp">
+      <Filter>Source Files\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\widgets\PushButton.cpp">
+      <Filter>Source Files\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\widgets\RadioButton.cpp">
+      <Filter>Source Files\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\widgets\ScrollablePane.cpp">
+      <Filter>Source Files\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\widgets\Scrollbar.cpp">
+      <Filter>Source Files\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\widgets\ScrolledContainer.cpp">
+      <Filter>Source Files\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\widgets\ScrolledItemListBase.cpp">
+      <Filter>Source Files\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\widgets\SequentialLayoutContainer.cpp">
+      <Filter>Source Files\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\widgets\Slider.cpp">
+      <Filter>Source Files\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\widgets\Spinner.cpp">
+      <Filter>Source Files\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\widgets\TabButton.cpp">
+      <Filter>Source Files\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\widgets\TabControl.cpp">
+      <Filter>Source Files\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\widgets\Thumb.cpp">
+      <Filter>Source Files\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\widgets\Titlebar.cpp">
+      <Filter>Source Files\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\widgets\ToggleButton.cpp">
+      <Filter>Source Files\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\widgets\Tooltip.cpp">
+      <Filter>Source Files\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\widgets\Tree.cpp">
+      <Filter>Source Files\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\widgets\TreeItem.cpp">
+      <Filter>Source Files\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\widgets\VerticalLayoutContainer.cpp">
+      <Filter>Source Files\widget</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\falagard\ComponentBase.cpp">
+      <Filter>Source Files\falagard</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\falagard\Dimensions.cpp">
+      <Filter>Source Files\falagard</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\falagard\EventAction.cpp">
+      <Filter>Source Files\falagard</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\falagard\EventLinkDefinition.cpp">
+      <Filter>Source Files\falagard</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\falagard\FormattingSetting.cpp">
+      <Filter>Source Files\falagard</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\falagard\FrameComponent.cpp">
+      <Filter>Source Files\falagard</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\falagard\ImageryComponent.cpp">
+      <Filter>Source Files\falagard</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\falagard\ImagerySection.cpp">
+      <Filter>Source Files\falagard</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\falagard\LayerSpecification.cpp">
+      <Filter>Source Files\falagard</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\falagard\NamedArea.cpp">
+      <Filter>Source Files\falagard</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\falagard\PropertyDefinitionBase.cpp">
+      <Filter>Source Files\falagard</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\falagard\PropertyInitialiser.cpp">
+      <Filter>Source Files\falagard</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\falagard\SectionSpecification.cpp">
+      <Filter>Source Files\falagard</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\falagard\StateImagery.cpp">
+      <Filter>Source Files\falagard</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\falagard\TextComponent.cpp">
+      <Filter>Source Files\falagard</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\falagard\WidgetComponent.cpp">
+      <Filter>Source Files\falagard</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\falagard\WidgetLookFeel.cpp">
+      <Filter>Source Files\falagard</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\falagard\WidgetLookManager.cpp">
+      <Filter>Source Files\falagard</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\falagard\XMLEnumHelper.cpp">
+      <Filter>Source Files\falagard</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\falagard\XMLHandler.cpp">
+      <Filter>Source Files\falagard</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\Affector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\Animation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\AnimationInstance.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\AnimationManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\Animation_xmlHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\Base.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\BasicImage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\BasicRenderedStringParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\BidiVisualMapping.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\BoundSlot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\CEGUI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\CentredRenderedString.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\ChainedXMLHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\Clipboard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\Colour.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\ColourRect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\CompositeResourceProvider.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\Config_xmlHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\CoordConverter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\DataContainer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\DefaultLogger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\DefaultRenderedStringParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\DefaultResourceProvider.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\DynamicModule.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\Element.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\Event.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\EventArgs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\EventSet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\Exceptions.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\FactoryModule.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\FactoryRegisterer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\Font.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\FontGlyph.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\FontManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\Font_xmlHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\FormattedRenderedString.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\ForwardRefs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\FreeFunctionSlot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\FreeTypeFont.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\FribidiVisualMapping.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\FunctorCopySlot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\FunctorPointerSlot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\FunctorReferenceBinder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\FunctorReferenceSlot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\GUIContext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\GUILayout_xmlHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\GeometryBuffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\GlobalEventSet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\IconvStringTranscoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\Image.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\ImageCodec.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\ImageFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\ImageManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\InjectedInputReceiver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\InputEvent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\Interpolator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\IteratorBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\JustifiedRenderedString.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\KeyFrame.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\LeftAlignedRenderedString.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\LinkedEvent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\Logger.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\MemberFunctionSlot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\MemoryAllocatedObject.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\MemoryAllocation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\MemoryOgreAllocator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\MemorySTLWrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\MemoryStdAllocator.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\MinibidiVisualMapping.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\MinizipResourceProvider.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\MouseCursor.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\NamedElement.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\NamedXMLResourceManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\PCRERegexMatcher.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\PixmapFont.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\Property.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\PropertyHelper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\PropertySet.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\Quaternion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\Rect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\RefCounted.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\RegexMatcher.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\RenderEffect.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\RenderEffectFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\RenderEffectManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\RenderQueue.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\RenderTarget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\RenderedString.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\RenderedStringComponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\RenderedStringImageComponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\RenderedStringParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\RenderedStringTextComponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\RenderedStringWidgetComponent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\RenderedStringWordWrapper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\Renderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\RenderingContext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\RenderingSurface.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\RenderingWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\ResourceProvider.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\RightAlignedRenderedString.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\Scheme.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\SchemeManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\Scheme_xmlHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\ScriptModule.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\SimpleTimer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\Singleton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\Size.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\SlotFunctorBase.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\String.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\StringTranscoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\SubscriberSlot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\System.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\SystemKeys.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\TextUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\Texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\TextureTarget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\TplInterpolators.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\TplProperty.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\TplWRFactoryRegisterer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\TplWindowFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\TplWindowFactoryRegisterer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\TplWindowProperty.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\TplWindowRendererFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\TplWindowRendererProperty.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\TypedProperty.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\UDim.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\Vector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\Vertex.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\Win32StringTranscoder.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\Window.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\WindowFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\WindowFactoryManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\WindowManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\WindowRenderer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\WindowRendererManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\XMLAttributes.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\XMLHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\XMLParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\XMLSerializer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\build\cegui\include\CEGUI\Config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\build\cegui\include\CEGUI\ModuleConfig.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\build\cegui\include\CEGUI\Version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\widgets\All.h">
+      <Filter>Header Files\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\widgets\ButtonBase.h">
+      <Filter>Header Files\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\widgets\ClippedContainer.h">
+      <Filter>Header Files\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\widgets\ComboDropList.h">
+      <Filter>Header Files\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\widgets\Combobox.h">
+      <Filter>Header Files\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\widgets\DefaultWindow.h">
+      <Filter>Header Files\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\widgets\DragContainer.h">
+      <Filter>Header Files\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\widgets\Editbox.h">
+      <Filter>Header Files\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\widgets\FrameWindow.h">
+      <Filter>Header Files\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\widgets\GridLayoutContainer.h">
+      <Filter>Header Files\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\widgets\GroupBox.h">
+      <Filter>Header Files\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\widgets\HorizontalLayoutContainer.h">
+      <Filter>Header Files\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\widgets\ItemEntry.h">
+      <Filter>Header Files\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\widgets\ItemListBase.h">
+      <Filter>Header Files\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\widgets\ItemListbox.h">
+      <Filter>Header Files\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\widgets\LayoutCell.h">
+      <Filter>Header Files\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\widgets\LayoutContainer.h">
+      <Filter>Header Files\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\widgets\ListHeader.h">
+      <Filter>Header Files\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\widgets\ListHeaderSegment.h">
+      <Filter>Header Files\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\widgets\Listbox.h">
+      <Filter>Header Files\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\widgets\ListboxItem.h">
+      <Filter>Header Files\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\widgets\ListboxTextItem.h">
+      <Filter>Header Files\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\widgets\MenuBase.h">
+      <Filter>Header Files\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\widgets\MenuItem.h">
+      <Filter>Header Files\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\widgets\Menubar.h">
+      <Filter>Header Files\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\widgets\MultiColumnList.h">
+      <Filter>Header Files\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\widgets\MultiLineEditbox.h">
+      <Filter>Header Files\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\widgets\PopupMenu.h">
+      <Filter>Header Files\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\widgets\ProgressBar.h">
+      <Filter>Header Files\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\widgets\PushButton.h">
+      <Filter>Header Files\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\widgets\RadioButton.h">
+      <Filter>Header Files\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\widgets\ScrollablePane.h">
+      <Filter>Header Files\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\widgets\Scrollbar.h">
+      <Filter>Header Files\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\widgets\ScrolledContainer.h">
+      <Filter>Header Files\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\widgets\ScrolledItemListBase.h">
+      <Filter>Header Files\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\widgets\SequentialLayoutContainer.h">
+      <Filter>Header Files\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\widgets\Slider.h">
+      <Filter>Header Files\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\widgets\Spinner.h">
+      <Filter>Header Files\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\widgets\TabButton.h">
+      <Filter>Header Files\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\widgets\TabControl.h">
+      <Filter>Header Files\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\widgets\Thumb.h">
+      <Filter>Header Files\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\widgets\Titlebar.h">
+      <Filter>Header Files\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\widgets\ToggleButton.h">
+      <Filter>Header Files\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\widgets\Tooltip.h">
+      <Filter>Header Files\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\widgets\Tree.h">
+      <Filter>Header Files\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\widgets\TreeItem.h">
+      <Filter>Header Files\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\widgets\VerticalLayoutContainer.h">
+      <Filter>Header Files\widget</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\falagard\ComponentBase.h">
+      <Filter>Header Files\falagard</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\falagard\Dimensions.h">
+      <Filter>Header Files\falagard</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\falagard\Enums.h">
+      <Filter>Header Files\falagard</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\falagard\EventAction.h">
+      <Filter>Header Files\falagard</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\falagard\EventLinkDefinition.h">
+      <Filter>Header Files\falagard</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\falagard\FalagardPropertyBase.h">
+      <Filter>Header Files\falagard</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\falagard\FormattingSetting.h">
+      <Filter>Header Files\falagard</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\falagard\FrameComponent.h">
+      <Filter>Header Files\falagard</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\falagard\ImageryComponent.h">
+      <Filter>Header Files\falagard</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\falagard\ImagerySection.h">
+      <Filter>Header Files\falagard</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\falagard\LayerSpecification.h">
+      <Filter>Header Files\falagard</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\falagard\NamedArea.h">
+      <Filter>Header Files\falagard</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\falagard\NamedDefinitionCollator.h">
+      <Filter>Header Files\falagard</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\falagard\PropertyDefinition.h">
+      <Filter>Header Files\falagard</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\falagard\PropertyDefinitionBase.h">
+      <Filter>Header Files\falagard</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\falagard\PropertyInitialiser.h">
+      <Filter>Header Files\falagard</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\falagard\PropertyLinkDefinition.h">
+      <Filter>Header Files\falagard</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\falagard\SectionSpecification.h">
+      <Filter>Header Files\falagard</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\falagard\StateImagery.h">
+      <Filter>Header Files\falagard</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\falagard\TextComponent.h">
+      <Filter>Header Files\falagard</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\falagard\WidgetComponent.h">
+      <Filter>Header Files\falagard</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\falagard\WidgetLookFeel.h">
+      <Filter>Header Files\falagard</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\falagard\WidgetLookManager.h">
+      <Filter>Header Files\falagard</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\falagard\XMLEnumHelper.h">
+      <Filter>Header Files\falagard</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\falagard\XMLHandler.h">
+      <Filter>Header Files\falagard</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{439E8171-74DF-39E2-9C91-86F5A27D0404}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\falagard">
+      <UniqueIdentifier>{2A5B1C50-A757-3BD0-8FC5-AEEED148AFD7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\widget">
+      <UniqueIdentifier>{08F9F94D-7233-3E88-BA78-5B3F9D62731D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{0AEFBBA9-890E-3A8C-9C1C-B55DE0FD84C1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\falagard">
+      <UniqueIdentifier>{9B71ECB5-A6EA-35D2-824E-9BC27D664B1C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\widget">
+      <UniqueIdentifier>{B4946B70-8F71-3B4C-960F-C18B897F340A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

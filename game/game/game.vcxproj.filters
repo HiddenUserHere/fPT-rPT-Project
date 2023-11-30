@@ -1,0 +1,3296 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="DLL">
+      <UniqueIdentifier>{cad888a7-7582-46e7-bb80-1a9f73887fff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game">
+      <UniqueIdentifier>{943129c8-6c33-44a8-b948-7f70c9cb02dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game">
+      <UniqueIdentifier>{4d1430f8-a33c-4e48-a365-e8a677b6593f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Controller">
+      <UniqueIdentifier>{f9127c0c-1d7d-4caf-af6f-146c995a2ccf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Controller\UI">
+      <UniqueIdentifier>{fdd15e16-f6e9-4d15-8e6c-0d22f3f66de7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Controller\UI\Objects">
+      <UniqueIdentifier>{54cc08b5-dfd2-44cf-a9dd-faf6085a3e02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Controller">
+      <UniqueIdentifier>{b075c3ae-e5b9-4151-ac02-910fed0e973f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Controller\UI">
+      <UniqueIdentifier>{2b782bcc-5a0a-48c0-8714-3ba9a573ce36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Controller\UI\Objects">
+      <UniqueIdentifier>{a3773246-0fb0-4833-aa4a-aecd649ea402}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Model">
+      <UniqueIdentifier>{480437be-2001-4fa1-ac7b-06f1574c917a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\View">
+      <UniqueIdentifier>{1cf029bf-a530-40b3-9cef-5ff0c3e6942c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Model">
+      <UniqueIdentifier>{92338fd2-105a-48cf-8b23-587b01e014f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Header">
+      <UniqueIdentifier>{21757701-d8be-41b3-ae5a-fe9199795d3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\View">
+      <UniqueIdentifier>{b4bbb925-fc18-4406-9382-b4c5928b5bd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DLL\Dump">
+      <UniqueIdentifier>{4b61e2ec-522f-4528-8eed-95203ecbc374}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Controller\Settings">
+      <UniqueIdentifier>{e464f1af-959e-4d36-a863-80f549a502df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Model\Item">
+      <UniqueIdentifier>{3e8fb89f-f820-4ec0-8438-63c6ade469fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Model\Item">
+      <UniqueIdentifier>{6cd100b6-f1e5-4a2f-9120-7d1d269a164d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Model\Unit">
+      <UniqueIdentifier>{d89f1781-fa49-4539-85ef-a7b3fccd9fad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shared">
+      <UniqueIdentifier>{a65d3b3c-a3ff-4140-ad7d-06a09dff1911}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Shared">
+      <UniqueIdentifier>{2f917327-562e-46e6-b4f2-9fc34688327b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Game\Controller\ChatGame">
+      <UniqueIdentifier>{535ea840-382d-4ebd-b729-ff73b326df8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Controller\ChatGame">
+      <UniqueIdentifier>{748e4c88-0e4c-44d2-87e8-43940eb9ed54}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Model\Packet">
+      <UniqueIdentifier>{8235600c-01fc-4830-9f4b-5bf39b4c1616}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Model\Unit">
+      <UniqueIdentifier>{481bac05-facf-4fad-8f20-188c844ecb9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Model\Packet">
+      <UniqueIdentifier>{c0e439c3-4744-4e2e-9c00-e1d3b64f2756}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine">
+      <UniqueIdentifier>{68f77c5b-83f6-4826-b3a0-a65c425bda84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine">
+      <UniqueIdentifier>{535db05e-9973-47b9-91fd-7df405f449cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\DX">
+      <UniqueIdentifier>{0eb51ff8-e1f2-437d-8d3f-7752a7eaead8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\DX">
+      <UniqueIdentifier>{6661ebe6-d650-4027-ba03-240c9728424e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Controller\HUD">
+      <UniqueIdentifier>{618ba867-83ed-45b4-9cd8-bd4f7416df2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Controller\HUD">
+      <UniqueIdentifier>{1f43b48f-1cde-4086-b776-a8b63391bb2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Model\Settings">
+      <UniqueIdentifier>{ab59c964-31c4-4e6f-a6d0-3e078b8b737e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Model\Settings">
+      <UniqueIdentifier>{b31e87a3-f4d3-42aa-ac1f-e0a1bc64a9aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Controller\Login">
+      <UniqueIdentifier>{3915685b-35e1-4f18-b13e-1f8b16fba067}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Controller\Login">
+      <UniqueIdentifier>{5fca8942-f1d2-4ce0-a5e3-95188011fe82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Model\Login">
+      <UniqueIdentifier>{f84a5b0f-f8f3-40fb-b2c6-56be75b4239d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Model\Login">
+      <UniqueIdentifier>{460ff89c-8205-4075-bb7d-8e284aa65a1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Model\Character">
+      <UniqueIdentifier>{d0830d00-6ebb-49bc-a5dc-63ebc72c3f05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Model\Character">
+      <UniqueIdentifier>{5f313a6f-0439-4e90-9aef-70bc8cd67404}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Particle">
+      <UniqueIdentifier>{0d2c77fd-d87a-4a73-aa76-d7f3771d2c43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Particle">
+      <UniqueIdentifier>{0b07d69d-a402-4c52-adef-1e8c93b2e7e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Model\Damage">
+      <UniqueIdentifier>{3f883c60-d5d7-43e0-bc9e-a2e571f4fee9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Model\Damage">
+      <UniqueIdentifier>{ebbddee3-8f9a-41a4-b225-6213b56f0804}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Controller\Damage">
+      <UniqueIdentifier>{d036de19-9740-40a0-9162-924e70f7fcce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Controller\Damage">
+      <UniqueIdentifier>{23d1610f-5ca9-4a53-93eb-c241c5620904}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Controller\Skill">
+      <UniqueIdentifier>{79563458-eb7d-42e4-8fd1-853d6bae5c2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Model\Skill">
+      <UniqueIdentifier>{c0086735-1b4f-4e49-8711-a806b27c2410}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Controller\Skill\Timer">
+      <UniqueIdentifier>{de2cb338-69a5-430a-82c8-57cf30a8ddaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Controller\Skill">
+      <UniqueIdentifier>{a8d521bb-ab43-4b5c-841d-de0819ca8570}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Controller\Skill\Timer">
+      <UniqueIdentifier>{d4d89f55-4861-44ed-a8c0-fe0b0a9193b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Model\Skill">
+      <UniqueIdentifier>{13492510-1c1c-49e8-b520-3863ce5417ab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\View\Settings">
+      <UniqueIdentifier>{c6626a41-a010-40a1-9396-f1d32ababfb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\View\Settings">
+      <UniqueIdentifier>{50305ae9-f184-420b-8f17-17d48a943085}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Controller\Bellatra">
+      <UniqueIdentifier>{29841a40-fb74-4860-8ded-7ddbcea7ef1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Controller\Bellatra">
+      <UniqueIdentifier>{06ac8a03-261b-44d0-9868-e9fbe5917419}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DLL\API">
+      <UniqueIdentifier>{4e72e5e7-61fe-49d2-9384-f6da58f458a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DLL\API\Timer">
+      <UniqueIdentifier>{c16ee6bd-9aa4-4ce6-87b7-d31ce2133e85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DLL\API\Shaders">
+      <UniqueIdentifier>{899046d0-dcdd-4b0e-9dcb-f55971ddb43c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DLL\API\Shaders\Glow">
+      <UniqueIdentifier>{4e79dc9c-6b05-4dad-8e8b-4bf2569c3ecb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DLL\API\Maps">
+      <UniqueIdentifier>{ff5fa5e5-67f4-493d-ad66-7c6ec4be7dd5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DLL\API\Launcher">
+      <UniqueIdentifier>{670e6f7a-4368-498a-b780-5f5b199aaf79}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DLL\API\AntiCheat">
+      <UniqueIdentifier>{dc3d8a87-7e92-45c6-a99a-259341ffad8a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Controller\Aging">
+      <UniqueIdentifier>{6fda3f4c-256e-4f6d-ab75-91042472765f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Controller\Aging">
+      <UniqueIdentifier>{c216af4b-43ce-40b0-a6c3-1b1b67fa0996}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DLL\API\Connection">
+      <UniqueIdentifier>{398418ec-2884-4430-88d9-991474b77ec7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Controller\Warehouse">
+      <UniqueIdentifier>{f9bbf152-38e1-42dc-b9f4-df69228940e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Controller\Warehouse">
+      <UniqueIdentifier>{9412f0db-bc46-4521-8807-7efd0e5f0e5d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Controller\Item">
+      <UniqueIdentifier>{dd77e1be-66db-4baa-b4ee-95eac0c3fe3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Controller\Item">
+      <UniqueIdentifier>{ef83c202-e2b2-4da4-8d8c-f563fbbd3bf5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Controller\BlessCastle">
+      <UniqueIdentifier>{b3fd5b3d-b524-490a-b882-52dda004f3d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Controller\BlessCastle">
+      <UniqueIdentifier>{d23697d9-9df7-4fe7-a60c-27cb8bf2d8cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Controller\Skill\Character">
+      <UniqueIdentifier>{1b7fdceb-a849-48a2-b42c-478b4fb720f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Controller\Skill\Character">
+      <UniqueIdentifier>{a8799ade-5cee-4242-ba05-9ad5fa3c29d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Model\Events">
+      <UniqueIdentifier>{b87bfb33-e888-4c97-a8f9-d2211d04cfc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Model\Events\Halloween">
+      <UniqueIdentifier>{e7506812-533c-422c-b7ec-317a99162368}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Model\Events">
+      <UniqueIdentifier>{04e82541-1b86-41f9-af1b-7a541e027b92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Model\Events\Halloween">
+      <UniqueIdentifier>{27fed222-ff87-4ba2-8792-7b09cb2d1289}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Controller\Events">
+      <UniqueIdentifier>{0a092393-b0b0-4d67-9202-eaf545de188c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Controller\Events\Halloween">
+      <UniqueIdentifier>{e22798fc-f00f-4651-9abe-5fb355a339bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Controller\Events">
+      <UniqueIdentifier>{5b5c0aea-fa0f-461f-8212-ffb006732675}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Controller\Events\Halloween">
+      <UniqueIdentifier>{2c6b9634-76ac-4f81-8d81-61c483067cf0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Controller\Manufacture">
+      <UniqueIdentifier>{1177712f-d382-480b-af6a-1d48aea0d871}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Controller\Item\PerfectView">
+      <UniqueIdentifier>{d91fa3ff-a2d4-410a-a823-9c3a6a124dc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Controller\Item\PerfectView">
+      <UniqueIdentifier>{d05a38ba-ca0a-49c1-b0f9-ab10c94f0286}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Controller\Manufacture">
+      <UniqueIdentifier>{dd833811-e079-4120-b07c-57078ed17862}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Controller\Manager">
+      <UniqueIdentifier>{db246c1a-4f77-403d-bb82-50f0af3884e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Controller\Manager">
+      <UniqueIdentifier>{afbd8a52-512d-47e3-a8be-b8d8ccb43135}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Model\Input">
+      <UniqueIdentifier>{37bbd87f-0b3f-4712-977e-0b6459778c24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Model\Input\Mouse">
+      <UniqueIdentifier>{4ce48600-95f2-43df-b632-2dbf4f0c2c08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Model\Input\Keyboard">
+      <UniqueIdentifier>{788d4956-3aa1-4553-b2a4-80236bace047}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Model\Quest">
+      <UniqueIdentifier>{e3349034-9848-4bab-a9ba-a2af7fe1bcd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Controller\UI\MessageBox">
+      <UniqueIdentifier>{18776cf1-dd5e-4d15-b272-4447a99aa853}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Controller\DailyQuest">
+      <UniqueIdentifier>{abff46bf-6748-43bf-bef4-e341d49435e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Model\Input">
+      <UniqueIdentifier>{b460ad03-a2c3-4a62-b5ce-75987a244ee4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Model\Input\Mouse">
+      <UniqueIdentifier>{8723bc14-8bbc-4c8d-953b-217c0a3b455a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Model\Input\Keyboard">
+      <UniqueIdentifier>{e2ac3f8b-1f7a-4332-b9ec-ed8d3078caac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Controller\UI\MessageBox">
+      <UniqueIdentifier>{8e35cf3d-8bfe-4296-8340-196c46a5193b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Model\Quest">
+      <UniqueIdentifier>{0368601b-cb59-4202-956d-2d6baa9e4e11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Controller\Mix">
+      <UniqueIdentifier>{65818345-f1d1-4924-83c7-c086f98b5774}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Controller\Mix">
+      <UniqueIdentifier>{03464cff-3797-4d85-a471-94dc693a0261}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Controller\CoinShop">
+      <UniqueIdentifier>{992f9419-27b8-47ff-bdea-a492e6450e4c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Controller\CoinShop">
+      <UniqueIdentifier>{da6e3d03-99d5-4890-b18e-c5f0b250cf2d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Controller\ForceOrb">
+      <UniqueIdentifier>{7ffc77f1-41ef-48dd-a2d3-2245c3f70506}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Controller\ForceOrb">
+      <UniqueIdentifier>{c6b2edf4-6f82-4bba-b903-9f20c4bfbe21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Controller\Settings\Window">
+      <UniqueIdentifier>{3631c6af-c467-4570-96fd-6304a03b4234}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Controller\Warehouse\Window">
+      <UniqueIdentifier>{c026e853-c65c-484a-a9cf-59ca701cc8f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Controller\DailyQuest\Window">
+      <UniqueIdentifier>{4c02e19a-871d-4185-879b-bfa77981fdc4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Controller\Warehouse\Window">
+      <UniqueIdentifier>{efc0bfd2-792a-49fa-b2b9-bf77ea3eb2e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Controller\Skill\Character\Priestess">
+      <UniqueIdentifier>{4651d589-4d64-4cf1-95ad-e6c0e340569d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Controller\Skill\Character\Shaman">
+      <UniqueIdentifier>{88f3366d-db3f-415a-9ec4-8805b7389659}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Controller\Skill\Character\Shaman">
+      <UniqueIdentifier>{7bbed0f2-a86d-476e-8185-534437bcc65b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Controller\Skill\Character\Priestess">
+      <UniqueIdentifier>{789ae3cc-b763-4da2-a838-796a1bae0849}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Controller\Item\CompareItem">
+      <UniqueIdentifier>{3b453ada-dc0f-4230-811f-fbc9c8d30ca4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Controller\Item\CompareItem">
+      <UniqueIdentifier>{cc9491a0-b77c-4fe7-8e51-04755d41fe8e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Controller\HUD\ChatBox">
+      <UniqueIdentifier>{bc7cc08c-d066-4a0a-ad95-fc8e9fcf659f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Controller\HUD\ChatBox">
+      <UniqueIdentifier>{9308253f-7538-483f-8f5d-908d7f16e980}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Controller\CoinShop\Window">
+      <UniqueIdentifier>{3b0ebc4d-6dbb-4f10-a0b0-2997a4d5f3bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Controller\CoinShop\Window">
+      <UniqueIdentifier>{f8b625fa-7177-41f1-9267-c64a379dc1fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Controller\Account">
+      <UniqueIdentifier>{19ecc528-074c-479b-9782-dd68cc1a38ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Controller\Account">
+      <UniqueIdentifier>{bba455a7-9be3-4681-a109-b5540d7594c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Controller\Events\Christmas">
+      <UniqueIdentifier>{884073ce-f486-445f-ad65-ccbda853f7b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Controller\Events\Christmas">
+      <UniqueIdentifier>{1863f43f-548b-4dec-831e-848df234e733}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Controller\Events\TheGrandFury">
+      <UniqueIdentifier>{9668da3b-831b-424b-8653-5d51b3bb14f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Controller\Events\TheGrandFury">
+      <UniqueIdentifier>{e1b9a43f-47d5-40e8-9ce2-3a9c4388f123}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Controller\Trade">
+      <UniqueIdentifier>{27afa583-acd8-4ee1-a2eb-9f28ee916acf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Controller\Trade">
+      <UniqueIdentifier>{9b5418e3-76bf-48c5-8b75-37108e70126c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Controller\UI\InputBox">
+      <UniqueIdentifier>{592ac3f9-e6ec-47d9-a8de-be729adf162c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Controller\DailyQuest">
+      <UniqueIdentifier>{3584812e-cd18-4a76-8b41-678829bbdd21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Controller\DailyQuest\Window">
+      <UniqueIdentifier>{bc6e5065-bf8c-4b5a-a497-420b2968e2fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Controller\Events\TheGrandFury\Window">
+      <UniqueIdentifier>{fe1cac84-b288-4681-aa3a-d10dd5bb19b7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Controller\Events\TheGrandFury\Window">
+      <UniqueIdentifier>{12f1cbc7-76c5-4dbe-9bef-77e48f0c8a72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\SMD">
+      <UniqueIdentifier>{96c5711b-1af4-476c-b9ca-86e785e51888}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DLL\API\Import">
+      <UniqueIdentifier>{6ac0823d-3ae8-46f4-8459-7d8fda3c0f08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DLL\API\Export">
+      <UniqueIdentifier>{ec364f95-634b-47ca-bd77-46f38ae20a51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Controller\Guide">
+      <UniqueIdentifier>{cc196c18-aa25-40d6-af50-84de80cf0f4f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Controller\Guide">
+      <UniqueIdentifier>{e30b5887-b34a-496c-b3a0-e3e20fc545e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Controller\Skill\Character\Archer">
+      <UniqueIdentifier>{f4644c67-eccb-4504-9ba8-fda9a610a13a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Controller\Skill\Character\Archer">
+      <UniqueIdentifier>{849b3eb2-c0b8-4f05-bf0a-8397481175f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Controller\UI\InputBox">
+      <UniqueIdentifier>{0aa5eb80-5602-4d64-b2ab-39714fb60ba6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Controller\Effect">
+      <UniqueIdentifier>{894d846a-3084-4ef0-8dcf-8188296b4bd2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Controller\Effect">
+      <UniqueIdentifier>{f397041c-af11-405c-9b28-81fcc2d40f92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Controller\UI\TextWindow">
+      <UniqueIdentifier>{ab43a18c-3ea8-4894-813d-f82f828e8e58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Controller\UI\TextWindow">
+      <UniqueIdentifier>{8aee0ef5-8b15-437b-8b45-1b109d65b460}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Controller\Damage\DamageInfo">
+      <UniqueIdentifier>{a1208044-c446-4459-9430-cd414a6c678e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Controller\Damage\DamageInfo">
+      <UniqueIdentifier>{02f421ea-a7a9-4296-bed4-d6c64e9f501a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Animation">
+      <UniqueIdentifier>{1952147b-c31e-46c9-81dd-1b720708a356}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Animation">
+      <UniqueIdentifier>{b49ccf0a-16ec-4454-b234-c1423a6def12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Controller\Mix\Window">
+      <UniqueIdentifier>{0f86bf7c-7da6-48ed-8e8e-120c6f8ce80b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Controller\Mix\Window">
+      <UniqueIdentifier>{3ad48980-00b1-48ba-9274-c5dae3336aea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Controller\AntiCheat">
+      <UniqueIdentifier>{5e6f90b5-5b23-4014-886b-d08ceea4947a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Controller\AntiCheat">
+      <UniqueIdentifier>{ff041fdc-273a-41bd-aaad-b4a230223c2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shared\Coin">
+      <UniqueIdentifier>{265c53d8-1f06-4818-abee-98ed374b18df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Shared\Coin">
+      <UniqueIdentifier>{ce4b3e1e-661c-46b2-873d-2b6272990345}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Library">
+      <UniqueIdentifier>{7b82834d-9fec-476e-a91c-825812448c6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Library">
+      <UniqueIdentifier>{65d3c7b6-10b4-4c49-9321-80004b2d59fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Shared\Definitions">
+      <UniqueIdentifier>{951b62d9-ebb7-4a06-b18c-3931ac3915c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shared\Definitions">
+      <UniqueIdentifier>{b69d69cb-fe29-4cc4-adc3-6127c301f60d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Library\File">
+      <UniqueIdentifier>{be02a0b6-e230-44cc-b2f0-a09ab023b788}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Library\File">
+      <UniqueIdentifier>{fab89bed-dec9-4826-acc6-9a7fbc5fd34c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Controller\Events\Easter">
+      <UniqueIdentifier>{158e667c-d5cf-475b-a481-191c292e39c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Library\Mutex">
+      <UniqueIdentifier>{6246897c-afaf-4c94-926b-55fb1e2bf86b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Library\Globals">
+      <UniqueIdentifier>{0d9cb4cc-2fa4-479a-92f7-f93a36014d08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Library\Mutex">
+      <UniqueIdentifier>{d8f906c9-8a26-4590-b07a-16f700820d48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Library\Globals">
+      <UniqueIdentifier>{07187a78-4689-456d-9b28-1326dcf246bb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DLL\DLL">
+      <UniqueIdentifier>{8254b31f-a055-4ac6-979b-ad8cfac82591}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DLL\EXE">
+      <UniqueIdentifier>{f4d2e45e-9a14-4001-be6f-b656a0b2a432}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Controller\Test">
+      <UniqueIdentifier>{a90d0a02-a037-404b-bec8-a07bbb8d1e2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Controller\Test">
+      <UniqueIdentifier>{c7b2a2ea-cffb-46bf-b6d2-7d0a357dee94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Model\Events\BellatraReward">
+      <UniqueIdentifier>{1722dd2e-8d3b-4f88-b823-01a8d699461b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\A">
+      <UniqueIdentifier>{e5f7ca79-87d2-4d72-a634-a0d882b8707a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Controller\Events\Easter">
+      <UniqueIdentifier>{1a09fbf8-91f8-4b0d-800a-0d6930fd76e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Controller\Quest">
+      <UniqueIdentifier>{22c7e941-0474-44c7-924d-8023b292fe26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Controller\Quest">
+      <UniqueIdentifier>{10a590f7-2d21-472a-8992-21e63266ca50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Controller\Events\EventGirl">
+      <UniqueIdentifier>{8c2314c6-bf78-4b3e-8994-5670551c78d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Controller\Events\EventGirl">
+      <UniqueIdentifier>{0437dbd0-a168-463b-b64b-955155e8170a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Controller\Skill\Character\Fighter">
+      <UniqueIdentifier>{29592566-407d-43e7-b196-dcb2e1ba58dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Controller\Skill\Character\Fighter">
+      <UniqueIdentifier>{ee5b414b-9c0e-42ec-8b9a-d5a96a5149d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Particle\Old">
+      <UniqueIdentifier>{4317bfbd-76b6-4290-97fd-26f589d48d75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Particle\Old">
+      <UniqueIdentifier>{7d002ee8-ae3d-4817-bf10-cb9233219caf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Controller\Skill\Character\Mechanician">
+      <UniqueIdentifier>{12acf8fd-73c7-4592-9ea5-d8e01dd103bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Controller\Skill\Character\Mechanician">
+      <UniqueIdentifier>{177530db-eee8-424e-869d-5d4d8570c1af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Controller\Skill\Character\Magician">
+      <UniqueIdentifier>{9bb6a13d-5904-4fe5-bf9b-bd3f87d16d83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Controller\Skill\Character\Magician">
+      <UniqueIdentifier>{3e635644-1c55-4533-aefa-c203bfc4ce3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\A">
+      <UniqueIdentifier>{55e2eba2-5f30-40e8-81f1-3711e34f1e85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Controller\Particle">
+      <UniqueIdentifier>{504673d4-c5b9-42b8-a856-c3de3e0c603c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Controller\Screen">
+      <UniqueIdentifier>{75b23019-48e0-4383-bf62-ff214143ed8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Controller\Screen\Login">
+      <UniqueIdentifier>{83709e85-401e-46b8-8b46-5f3eca9c55b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Controller\Screen\Character">
+      <UniqueIdentifier>{dad00a84-0032-484f-8ab7-49047fed2472}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Controller\Screen\World">
+      <UniqueIdentifier>{36d708c8-bb81-4396-a3ca-d4a307b679a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Controller\Screen">
+      <UniqueIdentifier>{f52e8ff3-835b-4150-84a8-0746443954cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Controller\Screen\Character">
+      <UniqueIdentifier>{e6a372dc-a82e-4329-b4e7-3db9d4691e0d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Controller\Screen\Login">
+      <UniqueIdentifier>{c649ba04-b46d-4658-8777-569435741154}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Controller\Screen\World">
+      <UniqueIdentifier>{5b85b18c-95b9-437f-8e8d-c9036871d43c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Controller\Skill\Character\Knight">
+      <UniqueIdentifier>{977af00d-7123-4e43-b679-599fd85b8349}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Controller\Skill\Character\Pikeman">
+      <UniqueIdentifier>{d869640b-b124-4957-8e7e-ace272d2a79d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Controller\Skill\Character\Atalanta">
+      <UniqueIdentifier>{5ef408a6-b087-4a11-a173-a88ce32dd125}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Controller\Skill\Character\Assassin">
+      <UniqueIdentifier>{cdbf951c-5ee7-4c0e-839f-cefe2a9070fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Controller\QuestArena">
+      <UniqueIdentifier>{ffb01a49-fbc6-4104-9368-11cd2f393426}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Controller\QuestArena\T5">
+      <UniqueIdentifier>{1f169f6f-47ad-4af8-9d2a-fd90e4e0c9d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Controller\Skill\Character\Pikeman">
+      <UniqueIdentifier>{e8977a60-2531-4291-846b-c4634e531b7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Controller\Skill\Character\Knight">
+      <UniqueIdentifier>{160c64a6-21c9-46b9-a522-ddc7967386eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Controller\Skill\Character\Atalanta">
+      <UniqueIdentifier>{f362155b-4a17-4664-ad1a-be023ada49be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Controller\Skill\Character\Assassin">
+      <UniqueIdentifier>{fee134d8-de28-40d6-b70b-99ddcc0a0bab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Controller\QuestArena">
+      <UniqueIdentifier>{51deff73-4ed0-4326-b9a7-e6a99dbae93c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Controller\QuestArena\T5">
+      <UniqueIdentifier>{dea9cc86-97ca-4a39-bf03-e94b38f71ab3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Controller\HUD\Party">
+      <UniqueIdentifier>{0cbdeea5-adf7-46e4-87c4-826281b13202}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Controller\World">
+      <UniqueIdentifier>{3fdc2b2c-6857-4b4f-b1b6-1b75b568ea73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Controller\HUD\MiniMap">
+      <UniqueIdentifier>{ad2a5bb3-f26d-4b10-b5fb-c9180fd9c4d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Controller\HUD\Party">
+      <UniqueIdentifier>{0262a1fb-1f07-4f42-b097-c853d401959e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Controller\HUD\MiniMap">
+      <UniqueIdentifier>{bfe18e4f-329f-4779-9f4d-1f189c8e7a21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Controller\World">
+      <UniqueIdentifier>{7aaeb43e-95ca-46c0-b506-71478cad5db7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine\Game">
+      <UniqueIdentifier>{e1664c1a-45d1-42a5-8a79-125f38a723fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine\Game">
+      <UniqueIdentifier>{07e1416d-bc74-40ed-87e7-39a16dacd365}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Controller\Particle">
+      <UniqueIdentifier>{9f42d76f-e572-4308-9185-ac96bf86a325}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Controller\HUD\Inventory">
+      <UniqueIdentifier>{b739863c-0f83-4ee2-a9f3-9c00d8949afe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Controller\HUD\Inventory">
+      <UniqueIdentifier>{fbc8d240-8430-4963-ac9f-6e55c611cdd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Model\Screen">
+      <UniqueIdentifier>{a1e324f7-b887-4ba3-92b4-d4fc03c23a7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Model\Screen\CharacterScreen">
+      <UniqueIdentifier>{f1889da1-c151-4580-86f8-bb2fb5e56b67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Controller\Achievement">
+      <UniqueIdentifier>{8ee69d6e-f329-4a24-af2f-0b7d0bff82c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Controller\Achievement\Window">
+      <UniqueIdentifier>{e8efeaf1-c6b8-4c33-943f-c6def4ce116a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Controller\Achievement">
+      <UniqueIdentifier>{ff2f565b-f491-4fa3-bb39-a082b4c19a7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Controller\Achievement\Window">
+      <UniqueIdentifier>{cbf1a5de-be2c-4106-bdba-d21fd9edc6a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Controller\ActionField">
+      <UniqueIdentifier>{d503861d-0eb1-4e4b-8cb0-32004753d072}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Controller\ActionField\Window">
+      <UniqueIdentifier>{75bcd302-4c7c-4f66-b030-58e7d35f9fc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Controller\ActionField">
+      <UniqueIdentifier>{59485050-2055-4e88-b3c1-57294c8f6241}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Controller\ActionField\Window">
+      <UniqueIdentifier>{809f8aba-7ee0-4895-8e1f-d5565601e68e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Controller\Browser">
+      <UniqueIdentifier>{dd710925-326a-4c83-85c7-733f382d61ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Model\Screen">
+      <UniqueIdentifier>{bce3aea1-7c2b-41d9-b956-71023fc247d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Controller\Clan">
+      <UniqueIdentifier>{20481168-cfcb-4bc3-93fa-79cb2362930e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Controller\Clan\Window">
+      <UniqueIdentifier>{61c268f7-ff59-44dc-886c-744ebd86f8ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Model\Discord">
+      <UniqueIdentifier>{8b2a3ace-2484-48ef-a8e7-505c7d820b77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Controller\Teleport">
+      <UniqueIdentifier>{07026714-a304-48e0-9afc-1f3a4e7cf0f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Controller\Teleport\TeleportCore">
+      <UniqueIdentifier>{c2a32245-6f98-4e0b-9f39-ae517ea71e73}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Controller\ItemBox">
+      <UniqueIdentifier>{0cd90cb8-5588-4a88-8cac-860d82588439}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Controller\ItemBox\Window">
+      <UniqueIdentifier>{f4f3b6d7-8206-43e7-9dde-3ac4b0d64ab2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Controller\Item\ItemSet">
+      <UniqueIdentifier>{f298a225-3f71-4e77-9a25-5294310099ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Controller\Shop">
+      <UniqueIdentifier>{35fd1c64-de7a-4d61-bfbe-9c40953f13c0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Controller\Shop\PersonalShop">
+      <UniqueIdentifier>{13d415f6-9321-4f7d-a72d-7215f9fb4574}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Controller\Shop\PersonalShop\Window">
+      <UniqueIdentifier>{3c962141-cdde-45e0-904e-2c481a2d9b45}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Controller\Clan">
+      <UniqueIdentifier>{104faf41-82f4-4046-a705-e4a0c07f994b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Controller\Shop">
+      <UniqueIdentifier>{b27f24f0-1266-43db-bc0c-6dff9046f99f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Controller\Shop\PersonalShop">
+      <UniqueIdentifier>{cc2aa509-f4bc-4f55-bcb1-8d5ebe87318e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Controller\Shop\PersonalShop\Window">
+      <UniqueIdentifier>{5453170c-7d57-40f9-9191-6f5cf86069fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Controller\Teleport">
+      <UniqueIdentifier>{85439520-9b79-4b2a-91ef-bb8a6f9377a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Controller\Teleport\TeleportCore">
+      <UniqueIdentifier>{f4218e2a-0936-48ba-bd6d-10c58fb9cf6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Controller\Browser">
+      <UniqueIdentifier>{92851065-796e-4a01-86a9-2cdf8e2b6aa0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Controller\Clan\Window">
+      <UniqueIdentifier>{797b5c92-310b-4c79-b64f-2eabfd6275cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Controller\ItemBox">
+      <UniqueIdentifier>{151bc8b4-ab72-4e0d-95de-d92d3f8aef6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Model\Discord">
+      <UniqueIdentifier>{dec87812-7dc6-435d-afa6-a7a73246075a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Game\Controller\Item\ItemSet">
+      <UniqueIdentifier>{9a3543c4-8a39-4fc8-9f1f-bfd0cde2467a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Shared\X3D">
+      <UniqueIdentifier>{2fc114fe-e08d-48f8-ad5e-c823cb3c5bff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shared\X3D">
+      <UniqueIdentifier>{f0176c90-a886-4ad1-b553-373d74aeae3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DLL\API\AYObfuscate">
+      <UniqueIdentifier>{eb674773-f7d0-41ca-b182-8ec1c5ba6fca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DLL\API\AntiCheat\AntiDebugger">
+      <UniqueIdentifier>{9fbc5cf0-cb7b-451e-a416-4687f766a3d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DLL\API\Effekseer">
+      <UniqueIdentifier>{9eff14d5-8220-460e-b4db-aa5382ee2a8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Shared\Iocp">
+      <UniqueIdentifier>{8a24e935-8641-405a-adb3-03a69f08ea3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shared\Iocp">
+      <UniqueIdentifier>{5abc9c3e-3a5e-4f82-890c-e6e28a0cbf5b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DLL\API\Noesis">
+      <UniqueIdentifier>{9132f3f8-2f67-4da9-9975-a3ef5043df90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Controller\Screen\Settings">
+      <UniqueIdentifier>{842a9532-64d8-489e-a48a-41e06ecdecb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Game\Controller\Screen\Settings\Window">
+      <UniqueIdentifier>{c6fc4a90-97bd-471d-bb0e-fa745b2992f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Shared\LevelTable">
+      <UniqueIdentifier>{51589489-c8b0-4cd3-8777-7749b01335ac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Shared\LevelTable">
+      <UniqueIdentifier>{9099c52e-a685-42d3-9efc-11fd05971ce4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="WinDump.h">
+      <Filter>DLL\Dump</Filter>
+    </ClInclude>
+    <ClInclude Include="Connection.h">
+      <Filter>DLL\API\Connection</Filter>
+    </ClInclude>
+    <ClInclude Include="SocketGame.h">
+      <Filter>DLL\API\Connection</Filter>
+    </ClInclude>
+    <ClInclude Include="UI.h">
+      <Filter>Header Files\Game\Controller\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Musics.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller.h">
+      <Filter>Header Files\Game\Controller</Filter>
+    </ClInclude>
+    <ClInclude Include="View.h">
+      <Filter>Header Files\Game\View</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Header Files\Game\Model</Filter>
+    </ClInclude>
+    <ClInclude Include="UIElement.h">
+      <Filter>Header Files\Game\Controller\UI\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="UIImageLoader.h">
+      <Filter>Header Files\Game\Controller\UI\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="UIEvent.h">
+      <Filter>Header Files\Game\Controller\UI\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="UIGroup.h">
+      <Filter>Header Files\Game\Controller\UI\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemHandler.h">
+      <Filter>Header Files\Game\Model\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="itemhandlerstruct.h">
+      <Filter>Header Files\Game\Model\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemCreator.h">
+      <Filter>DLL\API</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillManager.h">
+      <Filter>Header Files\Game\Model\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="globals.h">
+      <Filter>Header Files\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ChatGame.h">
+      <Filter>Header Files\Game\Controller\ChatGame</Filter>
+    </ClInclude>
+    <ClInclude Include="RecvPacket.h">
+      <Filter>Header Files\Game\Model\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="UnitGame.h">
+      <Filter>Header Files\Game\Model\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="DXEffect.h">
+      <Filter>Header Files\Engine\DX</Filter>
+    </ClInclude>
+    <ClInclude Include="DX.h">
+      <Filter>Header Files\Engine\DX</Filter>
+    </ClInclude>
+    <ClInclude Include="DXCamera.h">
+      <Filter>Header Files\Engine\DX</Filter>
+    </ClInclude>
+    <ClInclude Include="DXFont.h">
+      <Filter>Header Files\Engine\DX</Filter>
+    </ClInclude>
+    <ClInclude Include="DXGraphicEngine.h">
+      <Filter>Header Files\Engine\DX</Filter>
+    </ClInclude>
+    <ClInclude Include="HUDController.h">
+      <Filter>Header Files\Game\Controller\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="SettingsHandler.h">
+      <Filter>Header Files\Game\Controller\Screen\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="SettingsModel.h">
+      <Filter>Header Files\Game\Model\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="DXLogger.h">
+      <Filter>Header Files\Engine\DX</Filter>
+    </ClInclude>
+    <ClInclude Include="UIImageRender.h">
+      <Filter>Header Files\Game\Controller\UI\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="UIImageBox.h">
+      <Filter>Header Files\Game\Controller\UI\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="CLoginHandler.h">
+      <Filter>Header Files\Game\Controller\Login</Filter>
+    </ClInclude>
+    <ClInclude Include="LoginModel.h">
+      <Filter>Header Files\Game\Model\Login</Filter>
+    </ClInclude>
+    <ClInclude Include="DXPostProcess.h">
+      <Filter>Header Files\Engine\DX</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterGame.h">
+      <Filter>Header Files\Game\Model\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="MDamageInfo.h">
+      <Filter>Header Files\Game\Model\Damage</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiCheat.h">
+      <Filter>DLL\API\AntiCheat</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillTimerInfo.h">
+      <Filter>Header Files\Game\Controller\Skill\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\packets.h">
+      <Filter>Header Files\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\premiumstruct.h">
+      <Filter>Header Files\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="UIWindow.h">
+      <Filter>Header Files\Game\Controller\UI\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="SettingsView.h">
+      <Filter>Header Files\Game\View\Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="UIButton.h">
+      <Filter>Header Files\Game\Controller\UI\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="BellatraGame.h">
+      <Filter>Header Files\Game\Controller\Bellatra</Filter>
+    </ClInclude>
+    <ClInclude Include="UIScroll.h">
+      <Filter>Header Files\Game\Controller\UI\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="LaunchGame.h">
+      <Filter>DLL\API\Launcher</Filter>
+    </ClInclude>
+    <ClInclude Include="CAgingWindow.h">
+      <Filter>Header Files\Game\Controller\Aging</Filter>
+    </ClInclude>
+    <ClInclude Include="UICheckBox.h">
+      <Filter>Header Files\Game\Controller\UI\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemWindowHandler.h">
+      <Filter>Header Files\Game\Controller\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="BlessCastleHandler.h">
+      <Filter>Header Files\Game\Controller\BlessCastle</Filter>
+    </ClInclude>
+    <ClInclude Include="HalloweenModel.h">
+      <Filter>Header Files\Game\Model\Events\Halloween</Filter>
+    </ClInclude>
+    <ClInclude Include="CHalloweenHandler.h">
+      <Filter>Header Files\Game\Controller\Events\Halloween</Filter>
+    </ClInclude>
+    <ClInclude Include="PerfectItemViewHandler.h">
+      <Filter>Header Files\Game\Controller\Item\PerfectView</Filter>
+    </ClInclude>
+    <ClInclude Include="ManufactureHandler.h">
+      <Filter>Header Files\Game\Controller\Manufacture</Filter>
+    </ClInclude>
+    <ClInclude Include="ManageWindow.h">
+      <Filter>Header Files\Game\Controller\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="DailyQuest.h">
+      <Filter>Header Files\Game\Controller\DailyQuest</Filter>
+    </ClInclude>
+    <ClInclude Include="Mouse.h">
+      <Filter>Header Files\Game\Model\Input\Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="Keyboard.h">
+      <Filter>Header Files\Game\Model\Input\Keyboard</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageBox.h">
+      <Filter>Header Files\Game\Controller\UI\MessageBox</Filter>
+    </ClInclude>
+    <ClInclude Include="TimerSkill.h">
+      <Filter>Header Files\Game\Controller\Skill\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="QuestGame.h">
+      <Filter>Header Files\Game\Model\Quest</Filter>
+    </ClInclude>
+    <ClInclude Include="MixHandler.h">
+      <Filter>Header Files\Game\Controller\Mix</Filter>
+    </ClInclude>
+    <ClInclude Include="DXTexture.h">
+      <Filter>Header Files\Engine\DX</Filter>
+    </ClInclude>
+    <ClInclude Include="DXTextureEngine.h">
+      <Filter>Header Files\Engine\DX</Filter>
+    </ClInclude>
+    <ClInclude Include="CoinHandler.h">
+      <Filter>Header Files\Game\Controller\CoinShop</Filter>
+    </ClInclude>
+    <ClInclude Include="UIList.h">
+      <Filter>Header Files\Game\Controller\UI\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="ForceOrbHandler.h">
+      <Filter>Header Files\Game\Controller\ForceOrb</Filter>
+    </ClInclude>
+    <ClInclude Include="CDailyQuestWindow.h">
+      <Filter>Header Files\Game\Controller\DailyQuest\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="CSettingsWindow.h">
+      <Filter>Header Files\Game\Controller\Screen\Settings\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="CWarehouseWindow.h">
+      <Filter>Header Files\Game\Controller\Warehouse\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="UITextWindow.h">
+      <Filter>Header Files\Game\Controller\UI\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="UIInputField.h">
+      <Filter>Header Files\Game\Controller\UI\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="UIText.h">
+      <Filter>Header Files\Game\Controller\UI\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="ShamanHandler.h">
+      <Filter>Header Files\Game\Controller\Skill\Character\Shaman</Filter>
+    </ClInclude>
+    <ClInclude Include="CMiraculousLight.h">
+      <Filter>Header Files\Game\Controller\Skill\Character\Priestess</Filter>
+    </ClInclude>
+    <ClInclude Include="CSkillEffectHandler.h">
+      <Filter>Header Files\Game\Controller\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="CompareItemHandler.h">
+      <Filter>Header Files\Game\Controller\Item\CompareItem</Filter>
+    </ClInclude>
+    <ClInclude Include="UIItemInfoBox.h">
+      <Filter>Header Files\Game\Controller\UI\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="UIImage.h">
+      <Filter>Header Files\Game\Controller\UI\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="CoinShopWindow.h">
+      <Filter>Header Files\Game\Controller\CoinShop\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="AccountHandler.h">
+      <Filter>Header Files\Game\Controller\Account</Filter>
+    </ClInclude>
+    <ClInclude Include="UIComboBox.h">
+      <Filter>Header Files\Game\Controller\UI\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="UICounter.h">
+      <Filter>Header Files\Game\Controller\UI\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="ChristmasHandler.h">
+      <Filter>Header Files\Game\Controller\Events\Christmas</Filter>
+    </ClInclude>
+    <ClInclude Include="GrandFury.h">
+      <Filter>Header Files\Game\Controller\Events\TheGrandFury</Filter>
+    </ClInclude>
+    <ClInclude Include="TradeHandler.h">
+      <Filter>Header Files\Game\Controller\Trade</Filter>
+    </ClInclude>
+    <ClInclude Include="GrandFuryWindow.h">
+      <Filter>Header Files\Game\Controller\Events\TheGrandFury\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="RawINXAnimation.h">
+      <Filter>Header Files\Engine\SMD</Filter>
+    </ClInclude>
+    <ClInclude Include="RawSMDFrame.h">
+      <Filter>Header Files\Engine\SMD</Filter>
+    </ClInclude>
+    <ClInclude Include="RawSMDVertex.h">
+      <Filter>Header Files\Engine\SMD</Filter>
+    </ClInclude>
+    <ClInclude Include="RawSMDLight.h">
+      <Filter>Header Files\Engine\SMD</Filter>
+    </ClInclude>
+    <ClInclude Include="RawINXFile.h">
+      <Filter>Header Files\Engine\SMD</Filter>
+    </ClInclude>
+    <ClInclude Include="RawSMDKeyRotation.h">
+      <Filter>Header Files\Engine\SMD</Filter>
+    </ClInclude>
+    <ClInclude Include="RawSMDMaterial.h">
+      <Filter>Header Files\Engine\SMD</Filter>
+    </ClInclude>
+    <ClInclude Include="RawSMDHeader.h">
+      <Filter>Header Files\Engine\SMD</Filter>
+    </ClInclude>
+    <ClInclude Include="RawSMDTextureLink.h">
+      <Filter>Header Files\Engine\SMD</Filter>
+    </ClInclude>
+    <ClInclude Include="RawSMDObjectInfo.h">
+      <Filter>Header Files\Engine\SMD</Filter>
+    </ClInclude>
+    <ClInclude Include="RawSMDMatrix.h">
+      <Filter>Header Files\Engine\SMD</Filter>
+    </ClInclude>
+    <ClInclude Include="RawSMDVertexPhysique.h">
+      <Filter>Header Files\Engine\SMD</Filter>
+    </ClInclude>
+    <ClInclude Include="RawINXLODGroup.h">
+      <Filter>Header Files\Engine\SMD</Filter>
+    </ClInclude>
+    <ClInclude Include="RawSMDQuaternion.h">
+      <Filter>Header Files\Engine\SMD</Filter>
+    </ClInclude>
+    <ClInclude Include="RawSMDKeyPosition.h">
+      <Filter>Header Files\Engine\SMD</Filter>
+    </ClInclude>
+    <ClInclude Include="RawSMDFace.h">
+      <Filter>Header Files\Engine\SMD</Filter>
+    </ClInclude>
+    <ClInclude Include="RawSMDTerrain.h">
+      <Filter>Header Files\Engine\SMD</Filter>
+    </ClInclude>
+    <ClInclude Include="RawSMDMaterialHeader.h">
+      <Filter>Header Files\Engine\SMD</Filter>
+    </ClInclude>
+    <ClInclude Include="RawSMDVector3.h">
+      <Filter>Header Files\Engine\SMD</Filter>
+    </ClInclude>
+    <ClInclude Include="RawSMDObject.h">
+      <Filter>Header Files\Engine\SMD</Filter>
+    </ClInclude>
+    <ClInclude Include="RawSMDKeyScale.h">
+      <Filter>Header Files\Engine\SMD</Filter>
+    </ClInclude>
+    <ClInclude Include="SMD.h">
+      <Filter>Header Files\Engine\SMD</Filter>
+    </ClInclude>
+    <ClInclude Include="ImportINXFile.h">
+      <Filter>DLL\API\Import</Filter>
+    </ClInclude>
+    <ClInclude Include="ImportFile.h">
+      <Filter>DLL\API\Import</Filter>
+    </ClInclude>
+    <ClInclude Include="ImportSMDFile.h">
+      <Filter>DLL\API\Import</Filter>
+    </ClInclude>
+    <ClInclude Include="ExportINXFile.h">
+      <Filter>DLL\API\Export</Filter>
+    </ClInclude>
+    <ClInclude Include="ExportSMDFile.h">
+      <Filter>DLL\API\Export</Filter>
+    </ClInclude>
+    <ClInclude Include="Export.h">
+      <Filter>DLL\API\Export</Filter>
+    </ClInclude>
+    <ClInclude Include="Import.h">
+      <Filter>DLL\API\Import</Filter>
+    </ClInclude>
+    <ClInclude Include="ExportFile.h">
+      <Filter>DLL\API\Export</Filter>
+    </ClInclude>
+    <ClInclude Include="CLethalSightHandler.h">
+      <Filter>Header Files\Game\Controller\Skill\Character\Archer</Filter>
+    </ClInclude>
+    <ClInclude Include="GuideGame.h">
+      <Filter>Header Files\Game\Controller\Guide</Filter>
+    </ClInclude>
+    <ClInclude Include="CFierceWindHandler.h">
+      <Filter>Header Files\Game\Controller\Skill\Character\Archer</Filter>
+    </ClInclude>
+    <ClInclude Include="MapGame.h">
+      <Filter>DLL\API\Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="InputBox.h">
+      <Filter>Header Files\Game\Controller\UI\InputBox</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectGame.h">
+      <Filter>Header Files\Game\Controller\Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="TextWindow.h">
+      <Filter>Header Files\Game\Controller\UI\TextWindow</Filter>
+    </ClInclude>
+    <ClInclude Include="CDamageInfo.h">
+      <Filter>Header Files\Game\Controller\Damage\DamageInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="DamageHandler.h">
+      <Filter>Header Files\Game\Controller\Damage</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationHandler.h">
+      <Filter>Header Files\Engine\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="GameProtect.h">
+      <Filter>Header Files\Game\Controller\AntiCheat</Filter>
+    </ClInclude>
+    <ClInclude Include="UIItemBox.h">
+      <Filter>Header Files\Game\Controller\UI\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DLL.h">
+      <Filter>DLL\DLL</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\CoinShop.h">
+      <Filter>Header Files\Shared\Coin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\CoinShopItem.h">
+      <Filter>Header Files\Shared\Coin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\CoinShopTab.h">
+      <Filter>Header Files\Shared\Coin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\Coin.h">
+      <Filter>Header Files\Shared\Coin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\def.h">
+      <Filter>Header Files\Library\Globals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\strings.h">
+      <Filter>Header Files\Library\Globals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\common.h">
+      <Filter>Header Files\Library\Globals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\point.h">
+      <Filter>Header Files\Library\Globals</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\chat.h">
+      <Filter>Header Files\Shared\Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\character.h">
+      <Filter>Header Files\Shared\Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\socket.h">
+      <Filter>Header Files\Shared\Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\CReader.h">
+      <Filter>Header Files\Library\File</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\CReaderFile.h">
+      <Filter>Header Files\Library\File</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\debug.h">
+      <Filter>Header Files\Shared\Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\CMutex.h">
+      <Filter>Header Files\Library\Mutex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\unit.h">
+      <Filter>Header Files\Shared\Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\skill.h">
+      <Filter>Header Files\Shared\Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\user.h">
+      <Filter>Header Files\Shared\Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\quest.h">
+      <Filter>Header Files\Shared\Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\EXEMatrix.h">
+      <Filter>DLL\EXE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\item.h">
+      <Filter>Header Files\Shared\Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\map.h">
+      <Filter>Header Files\Shared\Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="CSound.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\sound.h">
+      <Filter>Header Files\Shared\Definitions</Filter>
+    </ClInclude>
+    <ClInclude Include="EXERender.h">
+      <Filter>DLL\EXE</Filter>
+    </ClInclude>
+    <ClInclude Include="EXEModel.h">
+      <Filter>DLL\EXE</Filter>
+    </ClInclude>
+    <ClInclude Include="EXEFrame.h">
+      <Filter>DLL\EXE</Filter>
+    </ClInclude>
+    <ClInclude Include="EXEMesh.h">
+      <Filter>DLL\EXE</Filter>
+    </ClInclude>
+    <ClInclude Include="EXEVertex.h">
+      <Filter>DLL\EXE</Filter>
+    </ClInclude>
+    <ClInclude Include="EXEFace.h">
+      <Filter>DLL\EXE</Filter>
+    </ClInclude>
+    <ClInclude Include="EXE.h">
+      <Filter>DLL\EXE</Filter>
+    </ClInclude>
+    <ClInclude Include="EXETexture.h">
+      <Filter>DLL\EXE</Filter>
+    </ClInclude>
+    <ClInclude Include="EXEPoint.h">
+      <Filter>DLL\EXE</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowTest.h">
+      <Filter>Header Files\Game\Controller\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="gameinventory.h">
+      <Filter>Header Files\Game\A</Filter>
+    </ClInclude>
+    <ClInclude Include="gamebellatra.h">
+      <Filter>Header Files\Game\A</Filter>
+    </ClInclude>
+    <ClInclude Include="gamecharacterstatus.h">
+      <Filter>Header Files\Game\A</Filter>
+    </ClInclude>
+    <ClInclude Include="gameinterface.h">
+      <Filter>Header Files\Game\A</Filter>
+    </ClInclude>
+    <ClInclude Include="gameskill.h">
+      <Filter>Header Files\Game\A</Filter>
+    </ClInclude>
+    <ClInclude Include="gamemessagebox.h">
+      <Filter>Header Files\Game\A</Filter>
+    </ClInclude>
+    <ClInclude Include="BellatraReward.h">
+      <Filter>Header Files\Game\Controller\Bellatra</Filter>
+    </ClInclude>
+    <ClInclude Include="EasterEventHandler.h">
+      <Filter>Header Files\Game\Controller\Events\Easter</Filter>
+    </ClInclude>
+    <ClInclude Include="CQuestGame.h">
+      <Filter>Header Files\Game\Model\Quest</Filter>
+    </ClInclude>
+    <ClInclude Include="TestScreen.h">
+      <Filter>Header Files\Game\Controller\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillDataHandler.h">
+      <Filter>Header Files\Game\Model\Skill</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleBox.h">
+      <Filter>Header Files\Game\Controller\UI\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="QuestWindow.h">
+      <Filter>Header Files\Game\Controller\Quest</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\CSystem.h">
+      <Filter>Header Files\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="EventGirlHandler.h">
+      <Filter>Header Files\Game\Controller\Events\EventGirl</Filter>
+    </ClInclude>
+    <ClInclude Include="CSesmicImpactHandler.h">
+      <Filter>Header Files\Game\Controller\Skill\Character\Fighter</Filter>
+    </ClInclude>
+    <ClInclude Include="Particle.h">
+      <Filter>Header Files\Engine\Particle\Old</Filter>
+    </ClInclude>
+    <ClInclude Include="CStoneSkinHandler.h">
+      <Filter>Header Files\Game\Controller\Skill\Character\Magician</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\CWindow.h">
+      <Filter>Header Files\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\CApplication.h">
+      <Filter>Header Files\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\CProcess.h">
+      <Filter>Header Files\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="gameeffectfollow.h">
+      <Filter>Header Files\Game\A</Filter>
+    </ClInclude>
+    <ClInclude Include="CParticle.h">
+      <Filter>Header Files\Game\Controller\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="CParticleDebug.h">
+      <Filter>Header Files\Game\Controller\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="CParticleEmitter.h">
+      <Filter>Header Files\Game\Controller\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="CParticleEngine.h">
+      <Filter>Header Files\Game\Controller\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="CParticleEvent.h">
+      <Filter>Header Files\Game\Controller\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="CParticleFactory.h">
+      <Filter>Header Files\Game\Controller\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="CParticleModifier.h">
+      <Filter>Header Files\Game\Controller\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="CParticleModifierGroup.h">
+      <Filter>Header Files\Game\Controller\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="CParticleScript.h">
+      <Filter>Header Files\Game\Controller\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="CParticleSystem.h">
+      <Filter>Header Files\Game\Controller\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\CTimer.h">
+      <Filter>Header Files\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\Timer.h">
+      <Filter>Header Files\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\Node.h">
+      <Filter>Header Files\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\Event.h">
+      <Filter>Header Files\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\EventHandler.h">
+      <Filter>Header Files\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\sky.h">
+      <Filter>Header Files\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Header Files\Engine\DX</Filter>
+    </ClInclude>
+    <ClInclude Include="DXGlow.h">
+      <Filter>Header Files\Engine\DX</Filter>
+    </ClInclude>
+    <ClInclude Include="DXGeometryInstance.h">
+      <Filter>Header Files\Engine\DX</Filter>
+    </ClInclude>
+    <ClInclude Include="DXVideoRenderer.h">
+      <Filter>Header Files\Engine\DX</Filter>
+    </ClInclude>
+    <ClInclude Include="Screen.h">
+      <Filter>Header Files\Game\Controller\Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="CCharacterScreen.h">
+      <Filter>Header Files\Game\Controller\Screen\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="CLoginScreen.h">
+      <Filter>Header Files\Game\Controller\Screen\Login</Filter>
+    </ClInclude>
+    <ClInclude Include="CWorldScreen.h">
+      <Filter>Header Files\Game\Controller\Screen\World</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemTimerHandler.h">
+      <Filter>Header Files\Game\Controller\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="TestEditor.h">
+      <Filter>Header Files\Game\Controller\Test</Filter>
+    </ClInclude>
+    <ClInclude Include="UIAnimation.h">
+      <Filter>Header Files\Game\Controller\UI\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectOwner.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameScreen.h">
+      <Filter>Header Files\Game\Controller\Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="RessurectionHandler.h">
+      <Filter>Header Files\Game\Controller\Skill\Character\Priestess</Filter>
+    </ClInclude>
+    <ClInclude Include="CGame.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="GameCore.h">
+      <Filter>Header Files\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="CRuptureHandler.h">
+      <Filter>Header Files\Game\Controller\Skill\Character\Mechanician</Filter>
+    </ClInclude>
+    <ClInclude Include="UIMessageBallon.h">
+      <Filter>Header Files\Game\Controller\UI\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="UISkillInfoBox.h">
+      <Filter>Header Files\Game\Controller\UI\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="AbyssQuestWindow.h">
+      <Filter>Header Files\Game\Controller\Quest</Filter>
+    </ClInclude>
+    <ClInclude Include="CCreedHandler.h">
+      <Filter>Header Files\Game\Controller\Skill\Character\Shaman</Filter>
+    </ClInclude>
+    <ClInclude Include="CHolyConvictionHandler.h">
+      <Filter>Header Files\Game\Controller\Skill\Character\Knight</Filter>
+    </ClInclude>
+    <ClInclude Include="CIceElementalHandler.h">
+      <Filter>Header Files\Game\Controller\Skill\Character\Priestess</Filter>
+    </ClInclude>
+    <ClInclude Include="CRingsOfSpearsHandler.h">
+      <Filter>Header Files\Game\Controller\Skill\Character\Pikeman</Filter>
+    </ClInclude>
+    <ClInclude Include="CSummonTigerHandler.h">
+      <Filter>Header Files\Game\Controller\Skill\Character\Atalanta</Filter>
+    </ClInclude>
+    <ClInclude Include="CWizardTrance.h">
+      <Filter>Header Files\Game\Controller\Skill\Character\Magician</Filter>
+    </ClInclude>
+    <ClInclude Include="CShadowBlinkHandler.h">
+      <Filter>Header Files\Game\Controller\Skill\Character\Assassin</Filter>
+    </ClInclude>
+    <ClInclude Include="DXImageSceneRenderer.h">
+      <Filter>Header Files\Engine\DX</Filter>
+    </ClInclude>
+    <ClInclude Include="CRedRayHandler.h">
+      <Filter>Header Files\Game\Controller\Skill\Character\Magician</Filter>
+    </ClInclude>
+    <ClInclude Include="CrystalTowerHandler.h">
+      <Filter>Header Files\Game\Controller\QuestArena\T5</Filter>
+    </ClInclude>
+    <ClInclude Include="CLuaParticleOld.h">
+      <Filter>Header Files\Game\A</Filter>
+    </ClInclude>
+    <ClInclude Include="EXEVertexCache.h">
+      <Filter>DLL\EXE</Filter>
+    </ClInclude>
+    <ClInclude Include="DXDepthStencilBuffer.h">
+      <Filter>Header Files\Engine\DX</Filter>
+    </ClInclude>
+    <ClInclude Include="DXEffectFactory.h">
+      <Filter>Header Files\Engine\DX</Filter>
+    </ClInclude>
+    <ClInclude Include="DXGraphicsDevice.h">
+      <Filter>Header Files\Engine\DX</Filter>
+    </ClInclude>
+    <ClInclude Include="DXIndexBuffer.h">
+      <Filter>Header Files\Engine\DX</Filter>
+    </ClInclude>
+    <ClInclude Include="DXRenderer.h">
+      <Filter>Header Files\Engine\DX</Filter>
+    </ClInclude>
+    <ClInclude Include="DXRenderTarget.h">
+      <Filter>Header Files\Engine\DX</Filter>
+    </ClInclude>
+    <ClInclude Include="DXSelectGlow.h">
+      <Filter>Header Files\Engine\DX</Filter>
+    </ClInclude>
+    <ClInclude Include="DXSprite.h">
+      <Filter>Header Files\Engine\DX</Filter>
+    </ClInclude>
+    <ClInclude Include="DXSpriteFactory.h">
+      <Filter>Header Files\Engine\DX</Filter>
+    </ClInclude>
+    <ClInclude Include="DXTextureFactory.h">
+      <Filter>Header Files\Engine\DX</Filter>
+    </ClInclude>
+    <ClInclude Include="DXVertexBuffer.h">
+      <Filter>Header Files\Engine\DX</Filter>
+    </ClInclude>
+    <ClInclude Include="DXVertexDeclaration.h">
+      <Filter>Header Files\Engine\DX</Filter>
+    </ClInclude>
+    <ClInclude Include="DXVertexElements.h">
+      <Filter>Header Files\Engine\DX</Filter>
+    </ClInclude>
+    <ClInclude Include="DXViewport.h">
+      <Filter>Header Files\Engine\DX</Filter>
+    </ClInclude>
+    <ClInclude Include="UIDropdownMenu.h">
+      <Filter>Header Files\Game\Controller\UI\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="UITooltip.h">
+      <Filter>Header Files\Game\Controller\UI\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="UIUnitMesh.h">
+      <Filter>Header Files\Game\Controller\UI\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="CPartyHandler.h">
+      <Filter>Header Files\Game\Controller\HUD\Party</Filter>
+    </ClInclude>
+    <ClInclude Include="CPartyWindow.h">
+      <Filter>Header Files\Game\Controller\HUD\Party</Filter>
+    </ClInclude>
+    <ClInclude Include="CMiniMapHandler.h">
+      <Filter>Header Files\Game\Controller\HUD\MiniMap</Filter>
+    </ClInclude>
+    <ClInclude Include="CInventory.h">
+      <Filter>Header Files\Game\Controller\HUD\Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameWorld.h">
+      <Filter>Header Files\Game\Controller\World</Filter>
+    </ClInclude>
+    <ClInclude Include="qedit.h">
+      <Filter>Header Files\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="GameDump.h">
+      <Filter>DLL\Dump</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameAudio.h">
+      <Filter>Header Files\Engine\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameEngine.h">
+      <Filter>Header Files\Engine\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameGraphic.h">
+      <Filter>Header Files\Engine\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameTimer.h">
+      <Filter>Header Files\Engine\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameWindow.h">
+      <Filter>Header Files\Engine\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="CParticleObject.h">
+      <Filter>Header Files\Game\Controller\Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="CUserInterface.h">
+      <Filter>Header Files\Game\Controller\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="CChatBox.h">
+      <Filter>Header Files\Game\Controller\HUD\ChatBox</Filter>
+    </ClInclude>
+    <ClInclude Include="UIColor.h">
+      <Filter>Header Files\Game\Controller\UI\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="UIBitmapFont.h">
+      <Filter>Header Files\Game\Controller\UI\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="UIControllerGeneral.h">
+      <Filter>Header Files\Game\Controller\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UIChargeBar.h">
+      <Filter>Header Files\Game\Controller\UI\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="CQuestMapHandler.h">
+      <Filter>Header Files\Game\Controller\Quest</Filter>
+    </ClInclude>
+    <ClInclude Include="CWarehouse.h">
+      <Filter>Header Files\Game\Controller\Warehouse</Filter>
+    </ClInclude>
+    <ClInclude Include="CChasingHuntHandler.h">
+      <Filter>Header Files\Game\Controller\Skill\Character\Shaman</Filter>
+    </ClInclude>
+    <ClInclude Include="CImpulsionHandler.h">
+      <Filter>Header Files\Game\Controller\Skill\Character\Mechanician</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\achievement.h">
+      <Filter>Header Files\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="CWMIReader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="md5.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="wave.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DXMaterial.h">
+      <Filter>Header Files\Engine\DX</Filter>
+    </ClInclude>
+    <ClInclude Include="DXMesh.h">
+      <Filter>Header Files\Engine\DX</Filter>
+    </ClInclude>
+    <ClInclude Include="DXMeshPart.h">
+      <Filter>Header Files\Engine\DX</Filter>
+    </ClInclude>
+    <ClInclude Include="DXModel.h">
+      <Filter>Header Files\Engine\DX</Filter>
+    </ClInclude>
+    <ClInclude Include="DXModelFactory.h">
+      <Filter>Header Files\Engine\DX</Filter>
+    </ClInclude>
+    <ClInclude Include="DXModelImporter.h">
+      <Filter>Header Files\Engine\DX</Filter>
+    </ClInclude>
+    <ClInclude Include="DXSound.h">
+      <Filter>Header Files\Engine\DX</Filter>
+    </ClInclude>
+    <ClInclude Include="DXSoundCaptureDevice.h">
+      <Filter>Header Files\Engine\DX</Filter>
+    </ClInclude>
+    <ClInclude Include="DXSoundDevice.h">
+      <Filter>Header Files\Engine\DX</Filter>
+    </ClInclude>
+    <ClInclude Include="DXSoundManager.h">
+      <Filter>Header Files\Engine\DX</Filter>
+    </ClInclude>
+    <ClInclude Include="DXSoundFactory.h">
+      <Filter>Header Files\Engine\DX</Filter>
+    </ClInclude>
+    <ClInclude Include="DXSoundStream.h">
+      <Filter>Header Files\Engine\DX</Filter>
+    </ClInclude>
+    <ClInclude Include="CAchievementHandler.h">
+      <Filter>Header Files\Game\Controller\Achievement</Filter>
+    </ClInclude>
+    <ClInclude Include="CAchievementWindow.h">
+      <Filter>Header Files\Game\Controller\Achievement\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\actionfield.h">
+      <Filter>Header Files\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="CActionFieldHandler.h">
+      <Filter>Header Files\Game\Controller\ActionField</Filter>
+    </ClInclude>
+    <ClInclude Include="CActionFieldChestWindow.h">
+      <Filter>Header Files\Game\Controller\ActionField\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="CActionFieldRequestWindow.h">
+      <Filter>Header Files\Game\Controller\ActionField\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="UIRectangleBox.h">
+      <Filter>Header Files\Game\Controller\UI\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\itemsetattribute.h">
+      <Filter>Header Files\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="CLastBreathHandler.h">
+      <Filter>Header Files\Game\Controller\Skill\Character\Pikeman</Filter>
+    </ClInclude>
+    <ClInclude Include="EXEVertexCache.h">
+      <Filter>DLL\EXE</Filter>
+    </ClInclude>
+    <ClInclude Include="CBrowserRendererHandler.h">
+      <Filter>Header Files\Game\Controller\Browser</Filter>
+    </ClInclude>
+    <ClInclude Include="CBrowserWindowHandler.h">
+      <Filter>Header Files\Game\Controller\Browser</Filter>
+    </ClInclude>
+    <ClInclude Include="CCharacterRaceWindowHandler.h">
+      <Filter>Header Files\Game\Controller\Screen\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="CCharacterScreenWindowHandler.h">
+      <Filter>Header Files\Game\Controller\Screen\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="CCharacterScreenModel.h">
+      <Filter>Header Files\Game\Model\Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="CClanHandler.h">
+      <Filter>Header Files\Game\Controller\Clan</Filter>
+    </ClInclude>
+    <ClInclude Include="CClanMasterHandler.h">
+      <Filter>Header Files\Game\Controller\Clan</Filter>
+    </ClInclude>
+    <ClInclude Include="CClanMasterWindow.h">
+      <Filter>Header Files\Game\Controller\Clan\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="CDiscordGame.h">
+      <Filter>Header Files\Game\Model\Discord</Filter>
+    </ClInclude>
+    <ClInclude Include="CKnockupUnitHandler.h">
+      <Filter>Header Files\Game\Model\Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="CTeleportCoreHandler.h">
+      <Filter>Header Files\Game\Controller\Teleport\TeleportCore</Filter>
+    </ClInclude>
+    <ClInclude Include="CItemBoxWindowHandler.h">
+      <Filter>Header Files\Game\Controller\ItemBox\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="CItemSetAttributeHandler.h">
+      <Filter>Header Files\Game\Controller\Item\ItemSet</Filter>
+    </ClInclude>
+    <ClInclude Include="CCharacterStatusHandler.h">
+      <Filter>Header Files\Game\Model\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="CItemBoxHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CCaravanHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\caravan.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CCaravanWindowHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DXShadowMap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DXShadow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CVirtualLifeHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CEnchantWeaponHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CChristmasTreeHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CChristmasTreeWindowHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\christmas.h">
+      <Filter>Header Files\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="CChristmasGiftWindowHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CWhirlWindHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CSocialWindowHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CFriendsSocialWindowHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CClanSocialWindowHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SMDDXModelImporter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DXTerrain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DXTerrainFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DXTerrainImporter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SMDDXTerrainImporter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SMDDXMeshImporter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SMDDXMaterialImporter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CBattleRoyaleHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CBattleRoyaleWindowHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\X3DEasings.h">
+      <Filter>Header Files\Shared\X3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\X3D.h">
+      <Filter>Header Files\Shared\X3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\X3DAABB.h">
+      <Filter>Header Files\Shared\X3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\X3DBezierPath.h">
+      <Filter>Header Files\Shared\X3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\X3DCircle.h">
+      <Filter>Header Files\Shared\X3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\X3DCone.h">
+      <Filter>Header Files\Shared\X3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\X3DCubicBezierCurve.h">
+      <Filter>Header Files\Shared\X3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\X3DCubicBezierCurveBuilder.h">
+      <Filter>Header Files\Shared\X3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\X3DFrustum.h">
+      <Filter>Header Files\Shared\X3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\X3DLine.h">
+      <Filter>Header Files\Shared\X3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\X3DMatrix4.h">
+      <Filter>Header Files\Shared\X3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\X3DPlane.h">
+      <Filter>Header Files\Shared\X3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\X3DQuad.h">
+      <Filter>Header Files\Shared\X3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\X3DQuaternion.h">
+      <Filter>Header Files\Shared\X3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\X3DRay.h">
+      <Filter>Header Files\Shared\X3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\X3DSphere.h">
+      <Filter>Header Files\Shared\X3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\X3DTriangle.h">
+      <Filter>Header Files\Shared\X3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\X3DVector2.h">
+      <Filter>Header Files\Shared\X3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\X3DVector3.h">
+      <Filter>Header Files\Shared\X3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\X3DVector4.h">
+      <Filter>Header Files\Shared\X3D</Filter>
+    </ClInclude>
+    <ClInclude Include="CIceMeteoriteHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CMagneticDischargeHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AYObfuscate.h">
+      <Filter>DLL\API\AYObfuscate</Filter>
+    </ClInclude>
+    <ClInclude Include="CAntiDebuggerHandler.h">
+      <Filter>DLL\API\AntiCheat\AntiDebugger</Filter>
+    </ClInclude>
+    <ClInclude Include="Effekseer\include\Effekseer.h">
+      <Filter>DLL\API\Effekseer</Filter>
+    </ClInclude>
+    <ClInclude Include="Effekseer\include\EffekseerRendererDX9.h">
+      <Filter>DLL\API\Effekseer</Filter>
+    </ClInclude>
+    <ClInclude Include="Effekseer\include\EffekseerSoundAL.h">
+      <Filter>DLL\API\Effekseer</Filter>
+    </ClInclude>
+    <ClInclude Include="Effekseer\include\EffekseerSoundXAudio2.h">
+      <Filter>DLL\API\Effekseer</Filter>
+    </ClInclude>
+    <ClInclude Include="CEffekseerHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CEffekSeerParticleSystem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CEffekSeerParticleScript.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EXERefactorEngine3D.h">
+      <Filter>DLL\EXE</Filter>
+    </ClInclude>
+    <ClInclude Include="EXEModelDataHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CItemRenderHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CPartyCoreHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DXFontFactory.h">
+      <Filter>Header Files\Engine\DX</Filter>
+    </ClInclude>
+    <ClInclude Include="CInventoryWindowHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CCostumeWindowHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CCharacterStatusWindowHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CAccountTalismanHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CAccountTalismanWindowHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UIWebViewer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UltralightFileSystemWin.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CPersonalShopWindowHandler.h">
+      <Filter>Header Files\Game\Controller\Shop\PersonalShop\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="CPersonalShopHandler.h">
+      <Filter>Header Files\Game\Controller\Shop\PersonalShop</Filter>
+    </ClInclude>
+    <ClInclude Include="CPetMountHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EXECharacter.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CEventHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CLoginScreenWindowHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CGameSkillHandlerOld.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CGlamorousBrushHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CDropItemAreaHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\CIocpBase.h">
+      <Filter>Header Files\Shared\Iocp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\CIocpClient.h">
+      <Filter>Header Files\Shared\Iocp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\CIocpConnection.h">
+      <Filter>Header Files\Shared\Iocp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\CIocpConnectionManager.h">
+      <Filter>Header Files\Shared\Iocp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\CIocpData.h">
+      <Filter>Header Files\Shared\Iocp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\CIocpHandlerImpl.h">
+      <Filter>Header Files\Shared\Iocp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\CIocpImpl.h">
+      <Filter>Header Files\Shared\Iocp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\CIocpSendQueue.h">
+      <Filter>Header Files\Shared\Iocp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\CIocpServer.h">
+      <Filter>Header Files\Shared\Iocp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\CIocpServerHandler.h">
+      <Filter>Header Files\Shared\Iocp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\CIocpUtils.h">
+      <Filter>Header Files\Shared\Iocp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\CIocpWorkerThread.h">
+      <Filter>Header Files\Shared\Iocp</Filter>
+    </ClInclude>
+    <ClInclude Include="CIocpGameHandler.h">
+      <Filter>DLL\API\Connection</Filter>
+    </ClInclude>
+    <ClInclude Include="CCarnivalHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CCarnivalWindowHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UINoesis.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Noesis\SpiviNoesisGUIRenderDeviceD3D9.h">
+      <Filter>DLL\API\Noesis</Filter>
+    </ClInclude>
+    <ClInclude Include="Noesis\SpiviNoesisGUITextureD3D9.h">
+      <Filter>DLL\API\Noesis</Filter>
+    </ClInclude>
+    <ClInclude Include="Noesis\SpiviNoesisGUIRenderTargetD3D9.h">
+      <Filter>DLL\API\Noesis</Filter>
+    </ClInclude>
+    <ClInclude Include="CPressDeityHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CKissViperHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CFlameBallHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CMountHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CHonorHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUltralightContext.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUltralightDriver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CRankingHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CRankingLevelWindowHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\ranking.h">
+      <Filter>Header Files\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="ultralight\include\AppCore\GPUDriverImpl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CAkatsukiHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CSciterWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CMountWindowHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="UIMyGUI.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CCharacterPvPModeHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CChallengeArenaHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CEarringItemHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\shared\LevelTable.h">
+      <Filter>Header Files\Shared\LevelTable</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WinDump.cpp">
+      <Filter>DLL\Dump</Filter>
+    </ClCompile>
+    <ClCompile Include="SocketGame.cpp">
+      <Filter>DLL\API\Connection</Filter>
+    </ClCompile>
+    <ClCompile Include="Controller.cpp">
+      <Filter>Source Files\Game\Controller</Filter>
+    </ClCompile>
+    <ClCompile Include="View.cpp">
+      <Filter>Source Files\Game\View</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Source Files\Game\Model</Filter>
+    </ClCompile>
+    <ClCompile Include="UIElement.cpp">
+      <Filter>Source Files\Game\Controller\UI\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="UIImageLoader.cpp">
+      <Filter>Source Files\Game\Controller\UI\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="UIEvent.cpp">
+      <Filter>Source Files\Game\Controller\UI\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="UIGroup.cpp">
+      <Filter>Source Files\Game\Controller\UI\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemHandler.cpp">
+      <Filter>Source Files\Game\Model\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemCreator.cpp">
+      <Filter>DLL\API</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillManager.cpp">
+      <Filter>Source Files\Game\Model\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="UIControllerGeneral.cpp">
+      <Filter>Source Files\Game\Controller\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="DXEffect.cpp">
+      <Filter>Source Files\Engine\DX</Filter>
+    </ClCompile>
+    <ClCompile Include="ChatGame.cpp">
+      <Filter>Source Files\Game\Controller\ChatGame</Filter>
+    </ClCompile>
+    <ClCompile Include="UnitGame.cpp">
+      <Filter>Source Files\Game\Model\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="DXGraphicEngine.cpp">
+      <Filter>Source Files\Engine\DX</Filter>
+    </ClCompile>
+    <ClCompile Include="DXCamera.cpp">
+      <Filter>Source Files\Engine\DX</Filter>
+    </ClCompile>
+    <ClCompile Include="DXFont.cpp">
+      <Filter>Source Files\Engine\DX</Filter>
+    </ClCompile>
+    <ClCompile Include="HUDController.cpp">
+      <Filter>Source Files\Game\Controller\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="SettingsHandler.cpp">
+      <Filter>Source Files\Game\Controller\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="SettingsModel.cpp">
+      <Filter>Source Files\Game\Model\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="DXLogger.cpp">
+      <Filter>Source Files\Engine\DX</Filter>
+    </ClCompile>
+    <ClCompile Include="UIImageRender.cpp">
+      <Filter>Source Files\Game\Controller\UI\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="UIImageBox.cpp">
+      <Filter>Source Files\Game\Controller\UI\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="CLoginHandler.cpp">
+      <Filter>Source Files\Game\Controller\Login</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginModel.cpp">
+      <Filter>Source Files\Game\Model\Login</Filter>
+    </ClCompile>
+    <ClCompile Include="DXPostProcess.cpp">
+      <Filter>Source Files\Engine\DX</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterGame.cpp">
+      <Filter>Source Files\Game\Model\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="MDamageInfo.cpp">
+      <Filter>Source Files\Game\Model\Damage</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiCheat.cpp">
+      <Filter>DLL\API\AntiCheat</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillTimerInfo.cpp">
+      <Filter>Source Files\Game\Controller\Skill\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="UIWindow.cpp">
+      <Filter>Source Files\Game\Controller\UI\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="SettingsView.cpp">
+      <Filter>Source Files\Game\View\Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="UIButton.cpp">
+      <Filter>Source Files\Game\Controller\UI\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="BellatraGame.cpp">
+      <Filter>Source Files\Game\Controller\Bellatra</Filter>
+    </ClCompile>
+    <ClCompile Include="UIScroll.cpp">
+      <Filter>Source Files\Game\Controller\UI\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="LaunchGame.cpp">
+      <Filter>DLL\API\Launcher</Filter>
+    </ClCompile>
+    <ClCompile Include="CAgingWindow.cpp">
+      <Filter>Source Files\Game\Controller\Aging</Filter>
+    </ClCompile>
+    <ClCompile Include="UICheckBox.cpp">
+      <Filter>Source Files\Game\Controller\UI\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemWindowHandler.cpp">
+      <Filter>Source Files\Game\Controller\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="BlessCastleHandler.cpp">
+      <Filter>Source Files\Game\Controller\BlessCastle</Filter>
+    </ClCompile>
+    <ClCompile Include="HalloweenModel.cpp">
+      <Filter>Source Files\Game\Model\Events\Halloween</Filter>
+    </ClCompile>
+    <ClCompile Include="CHalloweenHandler.cpp">
+      <Filter>Source Files\Game\Controller\Events\Halloween</Filter>
+    </ClCompile>
+    <ClCompile Include="PerfectItemViewHandler.cpp">
+      <Filter>Source Files\Game\Controller\Item\PerfectView</Filter>
+    </ClCompile>
+    <ClCompile Include="ManufactureHandler.cpp">
+      <Filter>Source Files\Game\Controller\Manufacture</Filter>
+    </ClCompile>
+    <ClCompile Include="ManageWindow.cpp">
+      <Filter>Source Files\Game\Controller\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="DailyQuest.cpp">
+      <Filter>Source Files\Game\Controller\DailyQuest</Filter>
+    </ClCompile>
+    <ClCompile Include="TimerSkill.cpp">
+      <Filter>Source Files\Game\Controller\Skill\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="UITextWindow.cpp">
+      <Filter>Source Files\Game\Controller\UI\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Keyboard.cpp">
+      <Filter>Source Files\Game\Model\Input\Keyboard</Filter>
+    </ClCompile>
+    <ClCompile Include="Mouse.cpp">
+      <Filter>Source Files\Game\Model\Input\Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="QuestGame.cpp">
+      <Filter>Source Files\Game\Model\Quest</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageBox.cpp">
+      <Filter>Source Files\Game\Controller\UI\MessageBox</Filter>
+    </ClCompile>
+    <ClCompile Include="DXTexture.cpp">
+      <Filter>Source Files\Engine\DX</Filter>
+    </ClCompile>
+    <ClCompile Include="DXTextureEngine.cpp">
+      <Filter>Source Files\Engine\DX</Filter>
+    </ClCompile>
+    <ClCompile Include="MixHandler.cpp">
+      <Filter>Source Files\Game\Controller\Mix</Filter>
+    </ClCompile>
+    <ClCompile Include="UIList.cpp">
+      <Filter>Source Files\Game\Controller\UI\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="CoinHandler.cpp">
+      <Filter>Source Files\Game\Controller\CoinShop</Filter>
+    </ClCompile>
+    <ClCompile Include="ForceOrbHandler.cpp">
+      <Filter>Source Files\Game\Controller\ForceOrb</Filter>
+    </ClCompile>
+    <ClCompile Include="CDailyQuestWindow.cpp">
+      <Filter>Source Files\Game\Controller\DailyQuest\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="CSettingsWindow.cpp">
+      <Filter>Source Files\Game\Controller\Settings\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="CWarehouseWindow.cpp">
+      <Filter>Source Files\Game\Controller\Warehouse\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="UIInputField.cpp">
+      <Filter>Source Files\Game\Controller\UI\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="UIText.cpp">
+      <Filter>Source Files\Game\Controller\UI\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\Coin.cpp">
+      <Filter>Source Files\Shared\Coin</Filter>
+    </ClCompile>
+    <ClCompile Include="ShamanHandler.cpp">
+      <Filter>Source Files\Game\Controller\Skill\Character\Shaman</Filter>
+    </ClCompile>
+    <ClCompile Include="CSkillEffectHandler.cpp">
+      <Filter>Source Files\Game\Controller\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="CMiraculousLight.cpp">
+      <Filter>Source Files\Game\Controller\Skill\Character\Priestess</Filter>
+    </ClCompile>
+    <ClCompile Include="CompareItemHandler.cpp">
+      <Filter>Source Files\Game\Controller\Item\CompareItem</Filter>
+    </ClCompile>
+    <ClCompile Include="UIItemInfoBox.cpp">
+      <Filter>Source Files\Game\Controller\UI\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="UIImage.cpp">
+      <Filter>Source Files\Game\Controller\UI\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="CoinShopWindow.cpp">
+      <Filter>Source Files\Game\Controller\CoinShop\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="AccountHandler.cpp">
+      <Filter>Source Files\Game\Controller\Account</Filter>
+    </ClCompile>
+    <ClCompile Include="UIComboBox.cpp">
+      <Filter>Source Files\Game\Controller\UI\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="UICounter.cpp">
+      <Filter>Source Files\Game\Controller\UI\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="ChristmasHandler.cpp">
+      <Filter>Source Files\Game\Controller\Events\Christmas</Filter>
+    </ClCompile>
+    <ClCompile Include="GrandFury.cpp">
+      <Filter>Source Files\Game\Controller\Events\TheGrandFury</Filter>
+    </ClCompile>
+    <ClCompile Include="TradeHandler.cpp">
+      <Filter>Source Files\Game\Controller\Trade</Filter>
+    </ClCompile>
+    <ClCompile Include="GrandFuryWindow.cpp">
+      <Filter>Source Files\Game\Controller\Events\TheGrandFury\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="ImportINXFile.cpp">
+      <Filter>DLL\API\Import</Filter>
+    </ClCompile>
+    <ClCompile Include="ImportSMDFile.cpp">
+      <Filter>DLL\API\Import</Filter>
+    </ClCompile>
+    <ClCompile Include="ImportFile.cpp">
+      <Filter>DLL\API\Import</Filter>
+    </ClCompile>
+    <ClCompile Include="ExportINXFile.cpp">
+      <Filter>DLL\API\Export</Filter>
+    </ClCompile>
+    <ClCompile Include="ExportSMDFile.cpp">
+      <Filter>DLL\API\Export</Filter>
+    </ClCompile>
+    <ClCompile Include="ExportFile.cpp">
+      <Filter>DLL\API\Export</Filter>
+    </ClCompile>
+    <ClCompile Include="CLethalSightHandler.cpp">
+      <Filter>Source Files\Game\Controller\Skill\Character\Archer</Filter>
+    </ClCompile>
+    <ClCompile Include="GuideGame.cpp">
+      <Filter>Source Files\Game\Controller\Guide</Filter>
+    </ClCompile>
+    <ClCompile Include="CFierceWindHandler.cpp">
+      <Filter>Source Files\Game\Controller\Skill\Character\Archer</Filter>
+    </ClCompile>
+    <ClCompile Include="MapGame.cpp">
+      <Filter>DLL\API\Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="InputBox.cpp">
+      <Filter>Source Files\Game\Controller\UI\InputBox</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectGame.cpp">
+      <Filter>Source Files\Game\Controller\Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="UIBitmapFont.cpp">
+      <Filter>Source Files\Game\Controller\UI\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="TextWindow.cpp">
+      <Filter>Source Files\Game\Controller\UI\TextWindow</Filter>
+    </ClCompile>
+    <ClCompile Include="CDamageInfo.cpp">
+      <Filter>Source Files\Game\Controller\Damage\DamageInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="DamageHandler.cpp">
+      <Filter>Source Files\Game\Controller\Damage</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationHandler.cpp">
+      <Filter>Source Files\Engine\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="GameProtect.cpp">
+      <Filter>Source Files\Game\Controller\AntiCheat</Filter>
+    </ClCompile>
+    <ClCompile Include="UIItemBox.cpp">
+      <Filter>Source Files\Game\Controller\UI\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="DLL.cpp">
+      <Filter>DLL\DLL</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Header Files\Header</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\CoinShop.cpp">
+      <Filter>Source Files\Shared\Coin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\CoinShopItem.cpp">
+      <Filter>Source Files\Shared\Coin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\CoinShopTab.cpp">
+      <Filter>Source Files\Shared\Coin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\def.cpp">
+      <Filter>Source Files\Library\Globals</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\strings.cpp">
+      <Filter>Source Files\Library\Globals</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\common.cpp">
+      <Filter>Source Files\Library\Globals</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\point.cpp">
+      <Filter>Source Files\Library\Globals</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\chat.cpp">
+      <Filter>Source Files\Shared\Definitions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\character.cpp">
+      <Filter>Source Files\Shared\Definitions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\socket.cpp">
+      <Filter>Source Files\Shared\Definitions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\CReader.cpp">
+      <Filter>Source Files\Library\File</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\CReaderFile.cpp">
+      <Filter>Source Files\Library\File</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\debug.cpp">
+      <Filter>Source Files\Shared\Definitions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\CMutex.cpp">
+      <Filter>Source Files\Library\Mutex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\unit.cpp">
+      <Filter>Source Files\Shared\Definitions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\skill.cpp">
+      <Filter>Source Files\Shared\Definitions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\quest.cpp">
+      <Filter>Source Files\Shared\Definitions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\EXEMatrix.cpp">
+      <Filter>DLL\EXE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\item.cpp">
+      <Filter>Source Files\Shared\Definitions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\map.cpp">
+      <Filter>Source Files\Shared\Definitions</Filter>
+    </ClCompile>
+    <ClCompile Include="CSound.cpp">
+      <Filter>Source Files\Engine\DX</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\sound.cpp">
+      <Filter>Source Files\Shared\Definitions</Filter>
+    </ClCompile>
+    <ClCompile Include="EXERender.cpp">
+      <Filter>DLL\EXE</Filter>
+    </ClCompile>
+    <ClCompile Include="EXEModel.cpp">
+      <Filter>DLL\EXE</Filter>
+    </ClCompile>
+    <ClCompile Include="EXEFrame.cpp">
+      <Filter>DLL\EXE</Filter>
+    </ClCompile>
+    <ClCompile Include="EXEMesh.cpp">
+      <Filter>DLL\EXE</Filter>
+    </ClCompile>
+    <ClCompile Include="EXEVertex.cpp">
+      <Filter>DLL\EXE</Filter>
+    </ClCompile>
+    <ClCompile Include="EXEFace.cpp">
+      <Filter>DLL\EXE</Filter>
+    </ClCompile>
+    <ClCompile Include="EXETexture.cpp">
+      <Filter>DLL\EXE</Filter>
+    </ClCompile>
+    <ClCompile Include="EXE.cpp">
+      <Filter>DLL\EXE</Filter>
+    </ClCompile>
+    <ClCompile Include="EXEPoint.cpp">
+      <Filter>DLL\EXE</Filter>
+    </ClCompile>
+    <ClCompile Include="WindowTest.cpp">
+      <Filter>Source Files\Game\Controller\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="gameinventory.cpp">
+      <Filter>Source Files\Game\A</Filter>
+    </ClCompile>
+    <ClCompile Include="gamebellatra.cpp">
+      <Filter>Source Files\Game\A</Filter>
+    </ClCompile>
+    <ClCompile Include="gamecharacterstatus.cpp">
+      <Filter>Source Files\Game\A</Filter>
+    </ClCompile>
+    <ClCompile Include="gamemessagebox.cpp">
+      <Filter>Source Files\Game\A</Filter>
+    </ClCompile>
+    <ClCompile Include="gameskill.cpp">
+      <Filter>Source Files\Game\A</Filter>
+    </ClCompile>
+    <ClCompile Include="gameinterface.cpp">
+      <Filter>Source Files\Game\A</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleBox.cpp">
+      <Filter>Source Files\Game\Controller\UI\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="EasterEventHandler.cpp">
+      <Filter>Source Files\Game\Controller\Events\Easter</Filter>
+    </ClCompile>
+    <ClCompile Include="BellatraReward.cpp">
+      <Filter>Source Files\Game\Controller\Bellatra</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillDataHandler.cpp">
+      <Filter>Source Files\Game\Model\Skill</Filter>
+    </ClCompile>
+    <ClCompile Include="TestScreen.cpp">
+      <Filter>Source Files\Game\Controller\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="CQuestGame.cpp">
+      <Filter>Source Files\Game\Model\Quest</Filter>
+    </ClCompile>
+    <ClCompile Include="QuestWindow.cpp">
+      <Filter>Source Files\Game\Controller\Quest</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\CSystem.cpp">
+      <Filter>Source Files\Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="EventGirlHandler.cpp">
+      <Filter>Source Files\Game\Controller\Events\EventGirl</Filter>
+    </ClCompile>
+    <ClCompile Include="CSesmicImpactHandler.cpp">
+      <Filter>Source Files\Game\Controller\Skill\Character\Fighter</Filter>
+    </ClCompile>
+    <ClCompile Include="Particle.cpp">
+      <Filter>Source Files\Engine\Particle\Old</Filter>
+    </ClCompile>
+    <ClCompile Include="CStoneSkinHandler.cpp">
+      <Filter>Source Files\Game\Controller\Skill\Character\Magician</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\CWindow.cpp">
+      <Filter>Source Files\Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\CApplication.cpp">
+      <Filter>Source Files\Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\CProcess.cpp">
+      <Filter>Source Files\Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="gameeffectfollow.cpp">
+      <Filter>Source Files\Game\A</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\CLua.cpp">
+      <Filter>Source Files\Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\CTimer.cpp">
+      <Filter>Source Files\Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\Timer.cpp">
+      <Filter>Source Files\Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\Node.cpp">
+      <Filter>Source Files\Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\Event.cpp">
+      <Filter>Source Files\Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\EventHandler.cpp">
+      <Filter>Source Files\Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\sky.cpp">
+      <Filter>Source Files\Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="UIAnimation.cpp">
+      <Filter>Source Files\Game\Controller\UI\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="DXVideoRenderer.cpp">
+      <Filter>Source Files\Engine\DX</Filter>
+    </ClCompile>
+    <ClCompile Include="DXGlow.cpp">
+      <Filter>Source Files\Engine\DX</Filter>
+    </ClCompile>
+    <ClCompile Include="DXGeometryInstance.cpp">
+      <Filter>Source Files\Engine\DX</Filter>
+    </ClCompile>
+    <ClCompile Include="Screen.cpp">
+      <Filter>Source Files\Game\Controller\Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="CLoginScreen.cpp">
+      <Filter>Source Files\Game\Controller\Screen\Login</Filter>
+    </ClCompile>
+    <ClCompile Include="CCharacterScreen.cpp">
+      <Filter>Source Files\Game\Controller\Screen\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="CWorldScreen.cpp">
+      <Filter>Source Files\Game\Controller\Screen\World</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemTimerHandler.cpp">
+      <Filter>Source Files\Game\Controller\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="RessurectionHandler.cpp">
+      <Filter>Source Files\Game\Controller\Skill\Character\Priestess</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectOwner.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="TestEditor.cpp">
+      <Filter>Source Files\Game\Controller\Test</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files\Engine\DX</Filter>
+    </ClCompile>
+    <ClCompile Include="CGame.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="GameCore.cpp">
+      <Filter>Source Files\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="CGameScreen.cpp">
+      <Filter>Source Files\Game\Controller\Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="CRuptureHandler.cpp">
+      <Filter>Source Files\Game\Controller\Skill\Character\Mechanician</Filter>
+    </ClCompile>
+    <ClCompile Include="UIMessageBallon.cpp">
+      <Filter>Source Files\Game\Controller\UI\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="UISkillInfoBox.cpp">
+      <Filter>Source Files\Game\Controller\UI\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="AbyssQuestWindow.cpp">
+      <Filter>Source Files\Game\Controller\Quest</Filter>
+    </ClCompile>
+    <ClCompile Include="CCreedHandler.cpp">
+      <Filter>Source Files\Game\Controller\Skill\Character\Shaman</Filter>
+    </ClCompile>
+    <ClCompile Include="CHolyConvictionHandler.cpp">
+      <Filter>Source Files\Game\Controller\Skill\Character\Knight</Filter>
+    </ClCompile>
+    <ClCompile Include="CIceElementalHandler.cpp">
+      <Filter>Source Files\Game\Controller\Skill\Character\Priestess</Filter>
+    </ClCompile>
+    <ClCompile Include="CRedRayHandler.cpp">
+      <Filter>Source Files\Game\Controller\Skill\Character\Magician</Filter>
+    </ClCompile>
+    <ClCompile Include="CRingsOfSpearsHandler.cpp">
+      <Filter>Source Files\Game\Controller\Skill\Character\Pikeman</Filter>
+    </ClCompile>
+    <ClCompile Include="CSummonTigerHandler.cpp">
+      <Filter>Source Files\Game\Controller\Skill\Character\Atalanta</Filter>
+    </ClCompile>
+    <ClCompile Include="CShadowBlinkHandler.cpp">
+      <Filter>Source Files\Game\Controller\Skill\Character\Assassin</Filter>
+    </ClCompile>
+    <ClCompile Include="CWizardTrance.cpp">
+      <Filter>Source Files\Game\Controller\Skill\Character\Magician</Filter>
+    </ClCompile>
+    <ClCompile Include="CrystalTowerHandler.cpp">
+      <Filter>Source Files\Game\Controller\QuestArena\T5</Filter>
+    </ClCompile>
+    <ClCompile Include="CLuaParticleOld.cpp">
+      <Filter>Source Files\Game\A</Filter>
+    </ClCompile>
+    <ClCompile Include="DXImageSceneRenderer.cpp">
+      <Filter>Source Files\Engine\DX</Filter>
+    </ClCompile>
+    <ClCompile Include="DXDepthStencilBuffer.cpp">
+      <Filter>Source Files\Engine\DX</Filter>
+    </ClCompile>
+    <ClCompile Include="DXEffectFactory.cpp">
+      <Filter>Source Files\Engine\DX</Filter>
+    </ClCompile>
+    <ClCompile Include="DXGraphicsDevice.cpp">
+      <Filter>Source Files\Engine\DX</Filter>
+    </ClCompile>
+    <ClCompile Include="DXIndexBuffer.cpp">
+      <Filter>Source Files\Engine\DX</Filter>
+    </ClCompile>
+    <ClCompile Include="DXRenderer.cpp">
+      <Filter>Source Files\Engine\DX</Filter>
+    </ClCompile>
+    <ClCompile Include="DXRenderTarget.cpp">
+      <Filter>Source Files\Engine\DX</Filter>
+    </ClCompile>
+    <ClCompile Include="DXSelectGlow.cpp">
+      <Filter>Source Files\Engine\DX</Filter>
+    </ClCompile>
+    <ClCompile Include="DXSprite.cpp">
+      <Filter>Source Files\Engine\DX</Filter>
+    </ClCompile>
+    <ClCompile Include="DXSpriteFactory.cpp">
+      <Filter>Source Files\Engine\DX</Filter>
+    </ClCompile>
+    <ClCompile Include="DXTextureFactory.cpp">
+      <Filter>Source Files\Engine\DX</Filter>
+    </ClCompile>
+    <ClCompile Include="DXVertexBuffer.cpp">
+      <Filter>Source Files\Engine\DX</Filter>
+    </ClCompile>
+    <ClCompile Include="DXVertexDeclaration.cpp">
+      <Filter>Source Files\Engine\DX</Filter>
+    </ClCompile>
+    <ClCompile Include="DXVertexElements.cpp">
+      <Filter>Source Files\Engine\DX</Filter>
+    </ClCompile>
+    <ClCompile Include="DXViewport.cpp">
+      <Filter>Source Files\Engine\DX</Filter>
+    </ClCompile>
+    <ClCompile Include="CPartyHandler.cpp">
+      <Filter>Source Files\Game\Controller\HUD\Party</Filter>
+    </ClCompile>
+    <ClCompile Include="CPartyWindow.cpp">
+      <Filter>Source Files\Game\Controller\HUD\Party</Filter>
+    </ClCompile>
+    <ClCompile Include="CInventory.cpp">
+      <Filter>Source Files\Game\Controller\HUD\Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="CGameWorld.cpp">
+      <Filter>Source Files\Game\Controller\World</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\CWorld.cpp">
+      <Filter>Source Files\Game\Controller\World</Filter>
+    </ClCompile>
+    <ClCompile Include="UIDropdownMenu.cpp">
+      <Filter>Source Files\Game\Controller\UI\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="UITooltip.cpp">
+      <Filter>Source Files\Game\Controller\UI\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="UIUnitMesh.cpp">
+      <Filter>Source Files\Game\Controller\UI\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="EXEVertexCache.cpp">
+      <Filter>DLL\EXE</Filter>
+    </ClCompile>
+    <ClCompile Include="GameDump.cpp">
+      <Filter>DLL\Dump</Filter>
+    </ClCompile>
+    <ClCompile Include="CGameAudio.cpp">
+      <Filter>Source Files\Engine\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="CGameEngine.cpp">
+      <Filter>Source Files\Engine\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="CGameGraphic.cpp">
+      <Filter>Source Files\Engine\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="CGameTimer.cpp">
+      <Filter>Source Files\Engine\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="CGameWindow.cpp">
+      <Filter>Source Files\Engine\Game</Filter>
+    </ClCompile>
+    <ClCompile Include="CParticleSystem.cpp">
+      <Filter>Source Files\Game\Controller\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="CParticleScript.cpp">
+      <Filter>Source Files\Game\Controller\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="CParticleObject.cpp">
+      <Filter>Source Files\Game\Controller\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="CParticleModifierGroup.cpp">
+      <Filter>Source Files\Game\Controller\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="CParticleModifier.cpp">
+      <Filter>Source Files\Game\Controller\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="CParticleFactory.cpp">
+      <Filter>Source Files\Game\Controller\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="CParticleEvent.cpp">
+      <Filter>Source Files\Game\Controller\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="CParticleEngine.cpp">
+      <Filter>Source Files\Game\Controller\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="CParticleEmitter.cpp">
+      <Filter>Source Files\Game\Controller\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="CParticleDebug.cpp">
+      <Filter>Source Files\Game\Controller\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="CParticle.cpp">
+      <Filter>Source Files\Game\Controller\Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="CUserInterface.cpp">
+      <Filter>Source Files\Game\Controller\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="CMiniMapHandler.cpp">
+      <Filter>Source Files\Game\Controller\HUD\MiniMap</Filter>
+    </ClCompile>
+    <ClCompile Include="CChatBox.cpp">
+      <Filter>Source Files\Game\Controller\HUD\ChatBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\party.cpp">
+      <Filter>Source Files\Shared\Definitions</Filter>
+    </ClCompile>
+    <ClCompile Include="UIChargeBar.cpp">
+      <Filter>Source Files\Game\Controller\UI\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="CQuestMapHandler.cpp">
+      <Filter>Source Files\Game\Controller\Quest</Filter>
+    </ClCompile>
+    <ClCompile Include="CWarehouse.cpp">
+      <Filter>Source Files\Game\Controller\Warehouse</Filter>
+    </ClCompile>
+    <ClCompile Include="RecvPacket.cpp">
+      <Filter>Source Files\Game\Model\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="CChasingHuntHandler.cpp">
+      <Filter>Source Files\Game\Controller\Skill\Character\Shaman</Filter>
+    </ClCompile>
+    <ClCompile Include="CImpulsionHandler.cpp">
+      <Filter>Source Files\Game\Controller\Skill\Character\Mechanician</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\achievement.cpp">
+      <Filter>Source Files\Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="CWMIReader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="md5.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="wave.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UIRectangleBox.cpp">
+      <Filter>Source Files\Game\Controller\UI\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="DX.cpp">
+      <Filter>Source Files\Engine\DX</Filter>
+    </ClCompile>
+    <ClCompile Include="DXMaterial.cpp">
+      <Filter>Source Files\Engine\DX</Filter>
+    </ClCompile>
+    <ClCompile Include="DXMesh.cpp">
+      <Filter>Source Files\Engine\DX</Filter>
+    </ClCompile>
+    <ClCompile Include="DXMeshPart.cpp">
+      <Filter>Source Files\Engine\DX</Filter>
+    </ClCompile>
+    <ClCompile Include="DXModel.cpp">
+      <Filter>Source Files\Engine\DX</Filter>
+    </ClCompile>
+    <ClCompile Include="DXModelFactory.cpp">
+      <Filter>Source Files\Engine\DX</Filter>
+    </ClCompile>
+    <ClCompile Include="DXSound.cpp">
+      <Filter>Source Files\Engine\DX</Filter>
+    </ClCompile>
+    <ClCompile Include="DXSoundCaptureDevice.cpp">
+      <Filter>Source Files\Engine\DX</Filter>
+    </ClCompile>
+    <ClCompile Include="DXSoundDevice.cpp">
+      <Filter>Source Files\Engine\DX</Filter>
+    </ClCompile>
+    <ClCompile Include="DXSoundFactory.cpp">
+      <Filter>Source Files\Engine\DX</Filter>
+    </ClCompile>
+    <ClCompile Include="DXSoundManager.cpp">
+      <Filter>Source Files\Engine\DX</Filter>
+    </ClCompile>
+    <ClCompile Include="DXSoundStream.cpp">
+      <Filter>Source Files\Engine\DX</Filter>
+    </ClCompile>
+    <ClCompile Include="CAchievementHandler.cpp">
+      <Filter>Source Files\Game\Controller\Achievement</Filter>
+    </ClCompile>
+    <ClCompile Include="CAchievementWindow.cpp">
+      <Filter>Source Files\Game\Controller\Achievement\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="CActionFieldHandler.cpp">
+      <Filter>Source Files\Game\Controller\ActionField</Filter>
+    </ClCompile>
+    <ClCompile Include="CActionFieldRequestWindow.cpp">
+      <Filter>Source Files\Game\Controller\ActionField\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="CActionFieldChestWindow.cpp">
+      <Filter>Source Files\Game\Controller\ActionField\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\actionfield.cpp">
+      <Filter>Source Files\Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\itemsetattribute.cpp">
+      <Filter>Source Files\Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="EXEVertexCache.cpp">
+      <Filter>DLL\EXE</Filter>
+    </ClCompile>
+    <ClCompile Include="CBrowserRendererHandler.cpp">
+      <Filter>Source Files\Game\Controller\Browser</Filter>
+    </ClCompile>
+    <ClCompile Include="CBrowserWindowHandler.cpp">
+      <Filter>Source Files\Game\Controller\Browser</Filter>
+    </ClCompile>
+    <ClCompile Include="CClanHandler.cpp">
+      <Filter>Source Files\Game\Controller\Clan</Filter>
+    </ClCompile>
+    <ClCompile Include="CClanMasterHandler.cpp">
+      <Filter>Source Files\Game\Controller\Clan</Filter>
+    </ClCompile>
+    <ClCompile Include="CClanMasterWindow.cpp">
+      <Filter>Source Files\Game\Controller\Clan\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="CCharacterRaceWindowHandler.cpp">
+      <Filter>Source Files\Game\Model\Screen\CharacterScreen</Filter>
+    </ClCompile>
+    <ClCompile Include="CCharacterScreenModel.cpp">
+      <Filter>Source Files\Game\Model\Screen\CharacterScreen</Filter>
+    </ClCompile>
+    <ClCompile Include="CCharacterScreenWindowHandler.cpp">
+      <Filter>Source Files\Game\Model\Screen\CharacterScreen</Filter>
+    </ClCompile>
+    <ClCompile Include="CItemBoxWindowHandler.cpp">
+      <Filter>Source Files\Game\Controller\ItemBox</Filter>
+    </ClCompile>
+    <ClCompile Include="CCharacterStatusHandler.cpp">
+      <Filter>Source Files\Game\Model\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="CDiscordGame.cpp">
+      <Filter>Source Files\Game\Model\Discord</Filter>
+    </ClCompile>
+    <ClCompile Include="CItemSetAttributeHandler.cpp">
+      <Filter>Source Files\Game\Controller\Item\ItemSet</Filter>
+    </ClCompile>
+    <ClCompile Include="CTeleportCoreHandler.cpp">
+      <Filter>Source Files\Game\Controller\Teleport\TeleportCore</Filter>
+    </ClCompile>
+    <ClCompile Include="CKnockupUnitHandler.cpp">
+      <Filter>Source Files\Game\Model\Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="CLastBreathHandler.cpp">
+      <Filter>Source Files\Game\Controller\Skill\Character\Pikeman</Filter>
+    </ClCompile>
+    <ClCompile Include="CPersonalShopHandler.cpp">
+      <Filter>Source Files\Game\Controller\Shop\PersonalShop</Filter>
+    </ClCompile>
+    <ClCompile Include="CPersonalShopWindowHandler.cpp">
+      <Filter>Source Files\Game\Controller\Shop\PersonalShop\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="CItemBoxHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CCaravanHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CCaravanWindowHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DXShadowMap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DXShadow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CVirtualLifeHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CEnchantWeaponHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CChristmasTreeHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CChristmasTreeWindowHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\caravan.cpp">
+      <Filter>Source Files\Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\christmas.cpp">
+      <Filter>Source Files\Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="CChristmasGiftWindowHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CWhirlWindHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CSocialWindowHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CFriendsSocialWindowHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CClanSocialWindowHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SMDDXModelImporter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DXTerrain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DXTerrainFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SMDDXTerrainImporter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SMDDXMeshImporter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SMDDXMaterialImporter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CBattleRoyaleHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CBattleRoyaleWindowHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\X3D.cpp">
+      <Filter>Source Files\Shared\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\X3DAABB.cpp">
+      <Filter>Source Files\Shared\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\X3DBezierPath.cpp">
+      <Filter>Source Files\Shared\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\X3DCircle.cpp">
+      <Filter>Source Files\Shared\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\X3DCone.cpp">
+      <Filter>Source Files\Shared\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\X3DCubicBezierCurve.cpp">
+      <Filter>Source Files\Shared\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\X3DCubicBezierCurveBuilder.cpp">
+      <Filter>Source Files\Shared\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\X3DEasings.cpp">
+      <Filter>Source Files\Shared\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\X3DFrustum.cpp">
+      <Filter>Source Files\Shared\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\X3DLine.cpp">
+      <Filter>Source Files\Shared\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\X3DMatrix4.cpp">
+      <Filter>Source Files\Shared\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\X3DPlane.cpp">
+      <Filter>Source Files\Shared\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\X3DQuad.cpp">
+      <Filter>Source Files\Shared\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\X3DQuaternion.cpp">
+      <Filter>Source Files\Shared\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\X3DRay.cpp">
+      <Filter>Source Files\Shared\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\X3DSphere.cpp">
+      <Filter>Source Files\Shared\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\X3DTriangle.cpp">
+      <Filter>Source Files\Shared\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\X3DVector2.cpp">
+      <Filter>Source Files\Shared\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\X3DVector3.cpp">
+      <Filter>Source Files\Shared\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\X3DVector4.cpp">
+      <Filter>Source Files\Shared\X3D</Filter>
+    </ClCompile>
+    <ClCompile Include="CIceMeteoriteHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CMagneticDischargeHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CAntiDebuggerHandler.cpp">
+      <Filter>DLL\API\AntiCheat\AntiDebugger</Filter>
+    </ClCompile>
+    <ClCompile Include="CEffekseerHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CEffekSeerParticleSystem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CEffekSeerParticleScript.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EXERefactorEngine3D.cpp">
+      <Filter>DLL\EXE</Filter>
+    </ClCompile>
+    <ClCompile Include="EXEModelDataHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CItemRenderHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CPartyCoreHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DXFontFactory.cpp">
+      <Filter>Source Files\Engine\DX</Filter>
+    </ClCompile>
+    <ClCompile Include="CInventoryWindowHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CCostumeWindowHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CCharacterStatusWindowHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CAccountTalismanHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CAccountTalismanWindowHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UIWebViewer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UltralightFileSystemWin.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CPetMountHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EXECharacter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CEventHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CLoginScreenWindowHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CGameSkillHandlerOld.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CGlamorousBrushHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CDropItemAreaHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\CIocpBase.cpp">
+      <Filter>Source Files\Shared\Iocp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\CIocpClient.cpp">
+      <Filter>Source Files\Shared\Iocp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\CIocpConnection.cpp">
+      <Filter>Source Files\Shared\Iocp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\CIocpConnectionManager.cpp">
+      <Filter>Source Files\Shared\Iocp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\CIocpData.cpp">
+      <Filter>Source Files\Shared\Iocp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\CIocpHandlerImpl.cpp">
+      <Filter>Source Files\Shared\Iocp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\CIocpImpl.cpp">
+      <Filter>Source Files\Shared\Iocp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\CIocpSendQueue.cpp">
+      <Filter>Source Files\Shared\Iocp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\CIocpServer.cpp">
+      <Filter>Source Files\Shared\Iocp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\CIocpServerHandler.cpp">
+      <Filter>Source Files\Shared\Iocp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\CIocpUtils.cpp">
+      <Filter>Source Files\Shared\Iocp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\CIocpWorkerThread.cpp">
+      <Filter>Source Files\Shared\Iocp</Filter>
+    </ClCompile>
+    <ClCompile Include="CIocpGameHandler.cpp">
+      <Filter>DLL\API\Connection</Filter>
+    </ClCompile>
+    <ClCompile Include="CCarnivalHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CCarnivalWindowHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UINoesis.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Noesis\SpiviNoesisGUIRenderDeviceD3D9.cpp">
+      <Filter>DLL\API\Noesis</Filter>
+    </ClCompile>
+    <ClCompile Include="Noesis\SpiviNoesisGUITextureD3D9.cpp">
+      <Filter>DLL\API\Noesis</Filter>
+    </ClCompile>
+    <ClCompile Include="Noesis\SpiviNoesisGUIRenderTargetD3D9.cpp">
+      <Filter>DLL\API\Noesis</Filter>
+    </ClCompile>
+    <ClCompile Include="CPressDeityHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CKissViperHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CFlameBallHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CMountHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CHonorHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUltralightContext.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUltralightDriver.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CRankingHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CRankingLevelWindowHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ultralight\include\AppCore\GPUDriverImpl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CAkatsukiHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CSciterWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CMountWindowHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="UIMyGUI.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CCharacterPvPModeHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CChallengeArenaHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CEarringItemHandler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\shared\LevelTable.cpp">
+      <Filter>Source Files\Shared\LevelTable</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="export.def">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="resource.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

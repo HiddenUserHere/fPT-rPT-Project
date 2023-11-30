@@ -1,0 +1,10 @@
+#include "resource.h"
+
+#define SXS_MANIFEST_RESOURCE_ID 1
+#define SXS_MANIFEST "game.manifest"
+#define SXS_ASSEMBLY_NAME "Microsoft.Windows.Game"
+#define SXS_ASSEMBLY_VERSION 1.0    
+#define SXS_ASSEMBLY_LANGUAGE_INDEPENDENT 1
+#define SXS_MANIFEST_IN_RESOURCES 1
+
+IDI_MYICON ICON "fpt.ico"

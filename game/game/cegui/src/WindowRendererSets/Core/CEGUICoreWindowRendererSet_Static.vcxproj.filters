@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\WindowRendererSets\Core\Button.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\WindowRendererSets\Core\Default.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\WindowRendererSets\Core\Editbox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\WindowRendererSets\Core\FrameWindow.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\WindowRendererSets\Core\ItemEntry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\WindowRendererSets\Core\ItemListbox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\WindowRendererSets\Core\ListHeader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\WindowRendererSets\Core\ListHeaderSegment.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\WindowRendererSets\Core\Listbox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\WindowRendererSets\Core\MenuItem.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\WindowRendererSets\Core\Menubar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\WindowRendererSets\Core\Module.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\WindowRendererSets\Core\MultiColumnList.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\WindowRendererSets\Core\MultiLineEditbox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\WindowRendererSets\Core\PopupMenu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\WindowRendererSets\Core\ProgressBar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\WindowRendererSets\Core\ScrollablePane.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\WindowRendererSets\Core\Scrollbar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\WindowRendererSets\Core\Slider.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\WindowRendererSets\Core\Static.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\WindowRendererSets\Core\StaticImage.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\WindowRendererSets\Core\StaticText.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\WindowRendererSets\Core\TabButton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\WindowRendererSets\Core\TabControl.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\WindowRendererSets\Core\Titlebar.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\WindowRendererSets\Core\ToggleButton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\WindowRendererSets\Core\Tooltip.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\WindowRendererSets\Core\Tree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\WindowRendererSets\Core\Button.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\WindowRendererSets\Core\Default.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\WindowRendererSets\Core\Editbox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\WindowRendererSets\Core\FrameWindow.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\WindowRendererSets\Core\ItemEntry.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\WindowRendererSets\Core\ItemListbox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\WindowRendererSets\Core\ListHeader.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\WindowRendererSets\Core\ListHeaderSegment.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\WindowRendererSets\Core\Listbox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\WindowRendererSets\Core\MenuItem.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\WindowRendererSets\Core\Menubar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\WindowRendererSets\Core\Module.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\WindowRendererSets\Core\MultiColumnList.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\WindowRendererSets\Core\MultiLineEditbox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\WindowRendererSets\Core\PopupMenu.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\WindowRendererSets\Core\ProgressBar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\WindowRendererSets\Core\ScrollablePane.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\WindowRendererSets\Core\Scrollbar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\WindowRendererSets\Core\Slider.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\WindowRendererSets\Core\Static.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\WindowRendererSets\Core\StaticImage.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\WindowRendererSets\Core\StaticText.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\WindowRendererSets\Core\TabButton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\WindowRendererSets\Core\TabControl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\WindowRendererSets\Core\Titlebar.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\WindowRendererSets\Core\ToggleButton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\WindowRendererSets\Core\Tooltip.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\WindowRendererSets\Core\Tree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\WindowRendererSets\Core\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{439E8171-74DF-39E2-9C91-86F5A27D0404}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{0AEFBBA9-890E-3A8C-9C1C-B55DE0FD84C1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

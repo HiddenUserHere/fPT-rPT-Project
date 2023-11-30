@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\XMLParserModules\Expat\XMLParser.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\XMLParserModules\Expat\XMLParserModule.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\XMLParserModules\Expat\XMLParser.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\include\CEGUI\XMLParserModules\Expat\XMLParserModule.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\RPT\Projects\dll\CEGUI\cegui-0.8.7\cegui-0.8.7\cegui\src\XMLParserModules\Expat\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{439E8171-74DF-39E2-9C91-86F5A27D0404}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{0AEFBBA9-890E-3A8C-9C1C-B55DE0FD84C1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
